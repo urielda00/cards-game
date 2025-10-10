@@ -1,0 +1,2702 @@
+[
+	{
+		"id": "w1",
+		"type": "word",
+		"front": "adult",
+		"back": "מבוגר",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w2",
+		"type": "word",
+		"front": "assumption",
+		"back": "הנחה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w3",
+		"type": "word",
+		"front": "behavior",
+		"back": "התנהגות",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w4",
+		"type": "word",
+		"front": "distance",
+		"back": "מרחק",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w5",
+		"type": "word",
+		"front": "pattern",
+		"back": "תבנית, דפוס",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w6",
+		"type": "word",
+		"front": "role",
+		"back": "תפקיד",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w7",
+		"type": "word",
+		"front": "study",
+		"back": "מחקר, ללמוד",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w8",
+		"type": "word",
+		"front": "task",
+		"back": "משימה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w9",
+		"type": "word",
+		"front": "certain",
+		"back": "בטוח, ודאי",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w10",
+		"type": "word",
+		"front": "clear",
+		"back": "ברור",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w11",
+		"type": "word",
+		"front": "dependent",
+		"back": "תלוי ב-",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w12",
+		"type": "word",
+		"front": "general",
+		"back": "כללי",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w13",
+		"type": "word",
+		"front": "personal",
+		"back": "אישי",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w14",
+		"type": "word",
+		"front": "specific",
+		"back": "ספציפי",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w15",
+		"type": "word",
+		"front": "various",
+		"back": "מגוון",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w16",
+		"type": "word",
+		"front": "vulnerable",
+		"back": "פגיע",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w17",
+		"type": "word",
+		"front": "appear",
+		"back": "להופיע",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w18",
+		"type": "word",
+		"front": "approach",
+		"back": "לגשת, גישה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w19",
+		"type": "word",
+		"front": "enter",
+		"back": "להיכנס",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w20",
+		"type": "word",
+		"front": "lead",
+		"back": "להוביל",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w21",
+		"type": "word",
+		"front": "observe",
+		"back": "להתבונן, לצפות",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w22",
+		"type": "word",
+		"front": "reveal",
+		"back": "לחשוף",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w23",
+		"type": "word",
+		"front": "seek",
+		"back": "לחפש",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w24",
+		"type": "word",
+		"front": "show",
+		"back": "להראות",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w25",
+		"type": "word",
+		"front": "frequently",
+		"back": "בתדירות גבוהה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w26",
+		"type": "word",
+		"front": "instead",
+		"back": "במקום",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w27",
+		"type": "word",
+		"front": "mainly",
+		"back": "בעיקר",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w28",
+		"type": "word",
+		"front": "often",
+		"back": "לעיתים קרובות",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w29",
+		"type": "word",
+		"front": "regularly",
+		"back": "באופן קבוע",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w30",
+		"type": "word",
+		"front": "seldom",
+		"back": "לעיתים רחוקות",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w31",
+		"type": "word",
+		"front": "access",
+		"back": "גישה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w32",
+		"type": "word",
+		"front": "advantage",
+		"back": "יתרון",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w33",
+		"type": "word",
+		"front": "amount",
+		"back": "כמות",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w34",
+		"type": "word",
+		"front": "concept",
+		"back": "מושג",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w35",
+		"type": "word",
+		"front": "consequence",
+		"back": "השלכה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w36",
+		"type": "word",
+		"front": "disability",
+		"back": "נכות, מוגבלות",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w37",
+		"type": "word",
+		"front": "interruption",
+		"back": "הפרעה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w38",
+		"type": "word",
+		"front": "response",
+		"back": "תגובה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w39",
+		"type": "word",
+		"front": "sequence",
+		"back": "רצף",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w40",
+		"type": "word",
+		"front": "complex",
+		"back": "מורכב",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w41",
+		"type": "word",
+		"front": "constant",
+		"back": "קבוע, תמידי",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w42",
+		"type": "word",
+		"front": "creative",
+		"back": "יצירתי",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w43",
+		"type": "word",
+		"front": "crucial",
+		"back": "חיוני",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w44",
+		"type": "word",
+		"front": "rapid",
+		"back": "מהיר",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w45",
+		"type": "word",
+		"front": "superficial",
+		"back": "שטחי",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w46",
+		"type": "word",
+		"front": "unique",
+		"back": "ייחודי",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w47",
+		"type": "word",
+		"front": "visual",
+		"back": "חזותי",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w48",
+		"type": "word",
+		"front": "compare",
+		"back": "להשוות",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w49",
+		"type": "word",
+		"front": "concentrate",
+		"back": "להתרכז",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w50",
+		"type": "word",
+		"front": "differentiate",
+		"back": "להבדיל",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w51",
+		"type": "word",
+		"front": "encourage",
+		"back": "לעודד",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w52",
+		"type": "word",
+		"front": "gain",
+		"back": "להשיג, רווח",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w53",
+		"type": "word",
+		"front": "publish",
+		"back": "לפרסם",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w54",
+		"type": "word",
+		"front": "review",
+		"back": "לסקור, סקירה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w55",
+		"type": "word",
+		"front": "suggest",
+		"back": "להציע",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w56",
+		"type": "word",
+		"front": "value",
+		"back": "ערך, להעריך",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w57",
+		"type": "word",
+		"front": "among",
+		"back": "בקרב",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w58",
+		"type": "word",
+		"front": "continually",
+		"back": "באופן מתמשך",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w59",
+		"type": "word",
+		"front": "extensively",
+		"back": "באופן נרחב",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w60",
+		"type": "word",
+		"front": "quickly",
+		"back": "במהירות",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w61",
+		"type": "word",
+		"front": "commitment",
+		"back": "מחויבות",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w62",
+		"type": "word",
+		"front": "cost",
+		"back": "עלות, לעלות",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w63",
+		"type": "word",
+		"front": "debt",
+		"back": "חוב",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w64",
+		"type": "word",
+		"front": "distraction",
+		"back": "הסחת דעת",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w65",
+		"type": "word",
+		"front": "effort",
+		"back": "מאמץ",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w66",
+		"type": "word",
+		"front": "limit",
+		"back": "גבול, להגביל",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w67",
+		"type": "word",
+		"front": "opportunity",
+		"back": "הזדמנות",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w68",
+		"type": "word",
+		"front": "prevention",
+		"back": "מניעה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w69",
+		"type": "word",
+		"front": "productivity",
+		"back": "פרודוקטיביות",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w70",
+		"type": "word",
+		"front": "range",
+		"back": "טווח",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w71",
+		"type": "word",
+		"front": "reaction",
+		"back": "תגובה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w72",
+		"type": "word",
+		"front": "difficult",
+		"back": "קשה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w73",
+		"type": "word",
+		"front": "efficient",
+		"back": "יעיל",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w74",
+		"type": "word",
+		"front": "great",
+		"back": "נהדר, גדול",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w75",
+		"type": "word",
+		"front": "necessary",
+		"back": "הכרחי",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w76",
+		"type": "word",
+		"front": "obvious",
+		"back": "ברור, מובן מאליו",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w77",
+		"type": "word",
+		"front": "agree",
+		"back": "להסכים",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w78",
+		"type": "word",
+		"front": "apply",
+		"back": "ליישם, להגיש מועמדות",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w79",
+		"type": "word",
+		"front": "avoid",
+		"back": "להימנע",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w80",
+		"type": "word",
+		"front": "consider",
+		"back": "לשקול",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w81",
+		"type": "word",
+		"front": "develop",
+		"back": "לפתח",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w82",
+		"type": "word",
+		"front": "expand",
+		"back": "להרחיב",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w83",
+		"type": "word",
+		"front": "improve",
+		"back": "לשפר",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w84",
+		"type": "word",
+		"front": "increase",
+		"back": "להגדיל, עלייה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w85",
+		"type": "word",
+		"front": "provide",
+		"back": "לספק",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w86",
+		"type": "word",
+		"front": "support",
+		"back": "לתמוך, תמיכה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w87",
+		"type": "word",
+		"front": "carefully",
+		"back": "בזהירות",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w88",
+		"type": "word",
+		"front": "certainly",
+		"back": "בוודאי",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w89",
+		"type": "word",
+		"front": "entirely",
+		"back": "לחלוטין",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w90",
+		"type": "word",
+		"front": "gradually",
+		"back": "בהדרגה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w91",
+		"type": "word",
+		"front": "addict",
+		"back": "מכור",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w92",
+		"type": "word",
+		"front": "bottom",
+		"back": "תחתית",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w93",
+		"type": "word",
+		"front": "device",
+		"back": "מכשיר",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w94",
+		"type": "word",
+		"front": "disease",
+		"back": "מחלה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w95",
+		"type": "word",
+		"front": "equivalent",
+		"back": "שווה ערך",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w96",
+		"type": "word",
+		"front": "evidence",
+		"back": "ראיה, הוכחה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w97",
+		"type": "word",
+		"front": "habit",
+		"back": "הרגל",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w98",
+		"type": "word",
+		"front": "illness",
+		"back": "מחלה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w99",
+		"type": "word",
+		"front": "pressure",
+		"back": "לחץ",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w100",
+		"type": "word",
+		"front": "priority",
+		"back": "עדיפות",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w101",
+		"type": "word",
+		"front": "action",
+		"back": "פעולה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w102",
+		"type": "word",
+		"front": "belief",
+		"back": "אמונה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w103",
+		"type": "word",
+		"front": "concern",
+		"back": "דאגה, עניין",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w104",
+		"type": "word",
+		"front": "crisis",
+		"back": "משבר",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w105",
+		"type": "word",
+		"front": "factor",
+		"back": "גורם",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w106",
+		"type": "word",
+		"front": "outcome",
+		"back": "תוצאה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w107",
+		"type": "word",
+		"front": "rise",
+		"back": "עלייה, לעלות",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w108",
+		"type": "word",
+		"front": "ritual",
+		"back": "טקס, פולחן",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w109",
+		"type": "word",
+		"front": "superstition",
+		"back": "אמונה טפלה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w110",
+		"type": "word",
+		"front": "survey",
+		"back": "סקר",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w111",
+		"type": "word",
+		"front": "actual",
+		"back": "ממשי, אמיתי",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w112",
+		"type": "word",
+		"front": "competitive",
+		"back": "תחרותי",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w113",
+		"type": "word",
+		"front": "individual",
+		"back": "פרטני, אינדיבידואל",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w114",
+		"type": "word",
+		"front": "irrational",
+		"back": "לא הגיוני",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w115",
+		"type": "word",
+		"front": "sensible",
+		"back": "הגיוני, נבון",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w116",
+		"type": "word",
+		"front": "traditional",
+		"back": "מסורתי",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w117",
+		"type": "word",
+		"front": "unpredictable",
+		"back": "בלתי צפוי",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w118",
+		"type": "word",
+		"front": "disturb",
+		"back": "להפריע",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w119",
+		"type": "word",
+		"front": "engage",
+		"back": "לעסוק ב-, למשוך",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w120",
+		"type": "word",
+		"front": "influence",
+		"back": "להשפיע, השפעה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w121",
+		"type": "word",
+		"front": "occur",
+		"back": "להתרחש",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w122",
+		"type": "word",
+		"front": "prefer",
+		"back": "להעדיף",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w123",
+		"type": "word",
+		"front": "protect",
+		"back": "להגן",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w124",
+		"type": "word",
+		"front": "reduce",
+		"back": "להפחית",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w125",
+		"type": "word",
+		"front": "vary",
+		"back": "להשתנות, לגוון",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w126",
+		"type": "word",
+		"front": "for instance",
+		"back": "לדוגמה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w127",
+		"type": "word",
+		"front": "notably",
+		"back": "באופן ניכר",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w128",
+		"type": "word",
+		"front": "similarly",
+		"back": "באופן דומה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w129",
+		"type": "word",
+		"front": "complaint",
+		"back": "תלונה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w130",
+		"type": "word",
+		"front": "decline",
+		"back": "ירידה, לסרב",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w131",
+		"type": "word",
+		"front": "exposure",
+		"back": "חשיפה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w132",
+		"type": "word",
+		"front": "frequency",
+		"back": "תדירות",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w133",
+		"type": "word",
+		"front": "fume",
+		"back": "אדים, עשן",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w134",
+		"type": "word",
+		"front": "occupation",
+		"back": "מקצוע, עיסוק",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w135",
+		"type": "word",
+		"front": "outbreak",
+		"back": "התפרצות",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w136",
+		"type": "word",
+		"front": "rank",
+		"back": "דרגה, לדרג",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w137",
+		"type": "word",
+		"front": "reception",
+		"back": "קבלת פנים",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w138",
+		"type": "word",
+		"front": "threat",
+		"back": "איום",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w139",
+		"type": "word",
+		"front": "accessible",
+		"back": "נגיש",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w140",
+		"type": "word",
+		"front": "annual",
+		"back": "שנתי",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w141",
+		"type": "word",
+		"front": "convenient",
+		"back": "נוח",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w142",
+		"type": "word",
+		"front": "measurable",
+		"back": "מדיד",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w143",
+		"type": "word",
+		"front": "elevated",
+		"back": "מוגבה, מרומם",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w144",
+		"type": "word",
+		"front": "initial",
+		"back": "ראשוני",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w145",
+		"type": "word",
+		"front": "proper",
+		"back": "הולם, נכון",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w146",
+		"type": "word",
+		"front": "arise",
+		"back": "לצוץ, להתעורר",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w147",
+		"type": "word",
+		"front": "bathe",
+		"back": "להתרחץ",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w148",
+		"type": "word",
+		"front": "confess",
+		"back": "להתוודות",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w149",
+		"type": "word",
+		"front": "cope",
+		"back": "להתמודד",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w150",
+		"type": "word",
+		"front": "exceed",
+		"back": "לחרוג, לעלות על",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w151",
+		"type": "word",
+		"front": "indicate",
+		"back": "להצביע על, לציין",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w152",
+		"type": "word",
+		"front": "induce",
+		"back": "לגרום, להשרות",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w153",
+		"type": "word",
+		"front": "promote",
+		"back": "לקדם",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w154",
+		"type": "word",
+		"front": "approximately",
+		"back": "בערך, בקירוב",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w155",
+		"type": "word",
+		"front": "constantly",
+		"back": "באופן קבוע, ללא הרף",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w156",
+		"type": "word",
+		"front": "literally",
+		"back": "פשוטו כמשמעו",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w157",
+		"type": "word",
+		"front": "partially",
+		"back": "באופן חלקי",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w158",
+		"type": "word",
+		"front": "periodically",
+		"back": "מעת לעת",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w159",
+		"type": "word",
+		"front": "ability",
+		"back": "יכולת",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w160",
+		"type": "word",
+		"front": "benefit",
+		"back": "תועלת, יתרון",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w161",
+		"type": "word",
+		"front": "choice",
+		"back": "בחירה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w162",
+		"type": "word",
+		"front": "communication",
+		"back": "תקשורת",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w163",
+		"type": "word",
+		"front": "experience",
+		"back": "ניסיון, חוויה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w164",
+		"type": "word",
+		"front": "expert",
+		"back": "מומחה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w165",
+		"type": "word",
+		"front": "fact",
+		"back": "עובדה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w166",
+		"type": "word",
+		"front": "need",
+		"back": "צורך, להזדקק",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w167",
+		"type": "word",
+		"front": "stage",
+		"back": "שלב, במה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w168",
+		"type": "word",
+		"front": "common",
+		"back": "נפוץ, משותף",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w169",
+		"type": "word",
+		"front": "exciting",
+		"back": "מרגש",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w170",
+		"type": "word",
+		"front": "important",
+		"back": "חשוב",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w171",
+		"type": "word",
+		"front": "impossible",
+		"back": "בלתי אפשרי",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w172",
+		"type": "word",
+		"front": "public",
+		"back": "ציבורי",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w173",
+		"type": "word",
+		"front": "social",
+		"back": "חברתי",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w174",
+		"type": "word",
+		"front": "affect",
+		"back": "להשפיע",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w175",
+		"type": "word",
+		"front": "create",
+		"back": "ליצור",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w176",
+		"type": "word",
+		"front": "discover",
+		"back": "לגלות",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w177",
+		"type": "word",
+		"front": "ensure",
+		"back": "להבטיח",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w178",
+		"type": "word",
+		"front": "maintain",
+		"back": "לתחזק",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w179",
+		"type": "word",
+		"front": "respond",
+		"back": "להגיב",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w180",
+		"type": "word",
+		"front": "say",
+		"back": "לומר",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w181",
+		"type": "word",
+		"front": "succeed",
+		"back": "להצליח",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w182",
+		"type": "word",
+		"front": "wonder",
+		"back": "לתהות",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w183",
+		"type": "word",
+		"front": "about",
+		"back": "על, אודות",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w184",
+		"type": "word",
+		"front": "almost",
+		"back": "כמעט",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w185",
+		"type": "word",
+		"front": "however",
+		"back": "אולם, עם זאת",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w186",
+		"type": "word",
+		"front": "mostly",
+		"back": "לרוב",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w187",
+		"type": "word",
+		"front": "probably",
+		"back": "כנראה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w188",
+		"type": "word",
+		"front": "adolescent",
+		"back": "מתבגר",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w189",
+		"type": "word",
+		"front": "amusement",
+		"back": "שעשוע, בידור",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w190",
+		"type": "word",
+		"front": "argument",
+		"back": "ויכוח, טיעון",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w191",
+		"type": "word",
+		"front": "claim",
+		"back": "טענה, לטעון",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w192",
+		"type": "word",
+		"front": "colleague",
+		"back": "עמית לעבודה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w193",
+		"type": "word",
+		"front": "composition",
+		"back": "חיבור, יצירה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w194",
+		"type": "word",
+		"front": "figure",
+		"back": "דמות, מספר, צורה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w195",
+		"type": "word",
+		"front": "passenger",
+		"back": "נוסע",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w196",
+		"type": "word",
+		"front": "product",
+		"back": "מוצר",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w197",
+		"type": "word",
+		"front": "quality",
+		"back": "איכות",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w198",
+		"type": "word",
+		"front": "ride",
+		"back": "נסיעה, לרכוב",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w199",
+		"type": "word",
+		"front": "equal",
+		"back": "שווה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w200",
+		"type": "word",
+		"front": "innate",
+		"back": "מולד",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_bsisi"
+	},
+	{
+		"id": "w201",
+		"type": "word",
+		"front": "reliable",
+		"back": "אמין",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w202",
+		"type": "word",
+		"front": "significant",
+		"back": "משמעותי",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w203",
+		"type": "word",
+		"front": "unconventional",
+		"back": "לא שגרתי",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w204",
+		"type": "word",
+		"front": "accompany",
+		"back": "ללוות",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w205",
+		"type": "word",
+		"front": "attract",
+		"back": "למשוך",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w206",
+		"type": "word",
+		"front": "conduct",
+		"back": "לנהל, לערוך",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w207",
+		"type": "word",
+		"front": "confirm",
+		"back": "לאשר",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w208",
+		"type": "word",
+		"front": "determine",
+		"back": "לקבוע",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w209",
+		"type": "word",
+		"front": "participate",
+		"back": "להשתתף",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w210",
+		"type": "word",
+		"front": "pour",
+		"back": "למזוג, לשפוך",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w211",
+		"type": "word",
+		"front": "receive",
+		"back": "לקבל",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w212",
+		"type": "word",
+		"front": "spread",
+		"back": "להתפשט, למרוח",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w213",
+		"type": "word",
+		"front": "apparently",
+		"back": "ככל הנראה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w214",
+		"type": "word",
+		"front": "deliberately",
+		"back": "בכוונה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w215",
+		"type": "word",
+		"front": "genuinely",
+		"back": "באמת ובתמים",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w216",
+		"type": "word",
+		"front": "prior to",
+		"back": "לפני",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w217",
+		"type": "word",
+		"front": "advertising",
+		"back": "פרסום",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w218",
+		"type": "word",
+		"front": "attitude",
+		"back": "גישה, עמדה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w219",
+		"type": "word",
+		"front": "century",
+		"back": "מאה (שנים)",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w220",
+		"type": "word",
+		"front": "creature",
+		"back": "יצור",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w221",
+		"type": "word",
+		"front": "knowledge",
+		"back": "ידע",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w222",
+		"type": "word",
+		"front": "manufacturing",
+		"back": "ייצור",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w223",
+		"type": "word",
+		"front": "path",
+		"back": "שביל, נתיב",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w224",
+		"type": "word",
+		"front": "perspective",
+		"back": "פרספקטיבה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w225",
+		"type": "word",
+		"front": "routine",
+		"back": "שגרה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w226",
+		"type": "word",
+		"front": "technique",
+		"back": "טכניקה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w227",
+		"type": "word",
+		"front": "ancient",
+		"back": "עתיק",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w228",
+		"type": "word",
+		"front": "current",
+		"back": "נוכחי, זרם",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w229",
+		"type": "word",
+		"front": "elaborate",
+		"back": "מפורט, משוכלל",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w230",
+		"type": "word",
+		"front": "essential",
+		"back": "חיוני",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w231",
+		"type": "word",
+		"front": "impractical",
+		"back": "לא מעשי",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w232",
+		"type": "word",
+		"front": "ordinary",
+		"back": "רגיל",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w233",
+		"type": "word",
+		"front": "accomplish",
+		"back": "להשיג, להשלים",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w234",
+		"type": "word",
+		"front": "adopt",
+		"back": "לאמץ",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w235",
+		"type": "word",
+		"front": "combine",
+		"back": "לשלב",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w236",
+		"type": "word",
+		"front": "enable",
+		"back": "לאפשר",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w237",
+		"type": "word",
+		"front": "lie (lay)",
+		"back": "לשכב",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w238",
+		"type": "word",
+		"front": "manipulate",
+		"back": "לתפעל, להפעיל מניפולציה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w239",
+		"type": "word",
+		"front": "postpone",
+		"back": "לדחות",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w240",
+		"type": "word",
+		"front": "question",
+		"back": "שאלה, להטיל ספק",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w241",
+		"type": "word",
+		"front": "require",
+		"back": "לדרוש",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w242",
+		"type": "word",
+		"front": "squeeze",
+		"back": "לסחוט",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w243",
+		"type": "word",
+		"front": "transform",
+		"back": "לשנות צורה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w244",
+		"type": "word",
+		"front": "nonetheless",
+		"back": "אף על פי כן",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w245",
+		"type": "word",
+		"front": "occasionally",
+		"back": "מדי פעם",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w246",
+		"type": "word",
+		"front": "perhaps",
+		"back": "אולי, ייתכן",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w247",
+		"type": "word",
+		"front": "achievement",
+		"back": "הישג",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w248",
+		"type": "word",
+		"front": "characteristic",
+		"back": "מאפיין",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w249",
+		"type": "word",
+		"front": "command",
+		"back": "פקודה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w250",
+		"type": "word",
+		"front": "critic",
+		"back": "מבקר",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w251",
+		"type": "word",
+		"front": "experiment",
+		"back": "ניסוי",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w252",
+		"type": "word",
+		"front": "justification",
+		"back": "הצדקה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w253",
+		"type": "word",
+		"front": "measure",
+		"back": "מידה, למדוד",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w254",
+		"type": "word",
+		"front": "movement",
+		"back": "תנועה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w255",
+		"type": "word",
+		"front": "objection",
+		"back": "התנגדות",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w256",
+		"type": "word",
+		"front": "request",
+		"back": "בקשה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w257",
+		"type": "word",
+		"front": "resource",
+		"back": "משאב",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w258",
+		"type": "word",
+		"front": "enthusiastic",
+		"back": "נלהב",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w259",
+		"type": "word",
+		"front": "innovative",
+		"back": "חדשני",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w260",
+		"type": "word",
+		"front": "mental",
+		"back": "נפשי, מנטלי",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w261",
+		"type": "word",
+		"front": "unlikely",
+		"back": "לא סביר",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w262",
+		"type": "word",
+		"front": "coordinate",
+		"back": "לתאם",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w263",
+		"type": "word",
+		"front": "dedicate",
+		"back": "להקדיש",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w264",
+		"type": "word",
+		"front": "demonstrate",
+		"back": "להדגים, להפגין",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w265",
+		"type": "word",
+		"front": "dive",
+		"back": "לצלול",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w266",
+		"type": "word",
+		"front": "insist",
+		"back": "להתעקש",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w267",
+		"type": "word",
+		"front": "produce",
+		"back": "לייצר",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w268",
+		"type": "word",
+		"front": "recognize",
+		"back": "לזהות",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w269",
+		"type": "word",
+		"front": "reflect",
+		"back": "לשקף",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w270",
+		"type": "word",
+		"front": "reply",
+		"back": "להשיב, תשובה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w271",
+		"type": "word",
+		"front": "supervise",
+		"back": "לפקח",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w272",
+		"type": "word",
+		"front": "backward",
+		"back": "אחורה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w273",
+		"type": "word",
+		"front": "before",
+		"back": "לפני",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w274",
+		"type": "word",
+		"front": "closely",
+		"back": "מקרוב",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w275",
+		"type": "word",
+		"front": "thus",
+		"back": "לכן, ובכך",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w276",
+		"type": "word",
+		"front": "acceptable",
+		"back": "מקובל",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w277",
+		"type": "word",
+		"front": "active",
+		"back": "פעיל",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w278",
+		"type": "word",
+		"front": "gifted",
+		"back": "מחונן",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w279",
+		"type": "word",
+		"front": "portable",
+		"back": "נייד",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w280",
+		"type": "word",
+		"front": "previous",
+		"back": "קודם",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w281",
+		"type": "word",
+		"front": "assign",
+		"back": "להקצות, למנות",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w282",
+		"type": "word",
+		"front": "establish",
+		"back": "לייסד, לבסס",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w283",
+		"type": "word",
+		"front": "estimate",
+		"back": "להעריך, אומדן",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w284",
+		"type": "word",
+		"front": "involve",
+		"back": "לכלול, לערב",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w285",
+		"type": "word",
+		"front": "motivate",
+		"back": "להניע, לתת מוטיבציה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w286",
+		"type": "word",
+		"front": "overemphasize",
+		"back": "להדגיש יתר על המידה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w287",
+		"type": "word",
+		"front": "perform",
+		"back": "לבצע, להופיע",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w288",
+		"type": "word",
+		"front": "persuade",
+		"back": "לשכנע",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w289",
+		"type": "word",
+		"front": "regret",
+		"back": "להתחרט, חרטה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w290",
+		"type": "word",
+		"front": "spoil",
+		"back": "לקלקל, לפנק",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w291",
+		"type": "word",
+		"front": "during",
+		"back": "במהלך",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w292",
+		"type": "word",
+		"front": "enough",
+		"back": "מספיק",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w293",
+		"type": "word",
+		"front": "hardly",
+		"back": "בקושי",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w294",
+		"type": "word",
+		"front": "throughout",
+		"back": "ברחבי, לאורך כל",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w295",
+		"type": "word",
+		"front": "accept",
+		"back": "לקבל",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w296",
+		"type": "word",
+		"front": "according to",
+		"back": "לפי",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w297",
+		"type": "word",
+		"front": "account",
+		"back": "חשבון",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w298",
+		"type": "word",
+		"front": "act",
+		"back": "לפעול, מעשה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w299",
+		"type": "word",
+		"front": "activity",
+		"back": "פעילות",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	},
+	{
+		"id": "w300",
+		"type": "word",
+		"front": "actually",
+		"back": "למעשה",
+		"bucket": 1,
+		"starred": false,
+		"listId": "list_adv1"
+	}
+]
