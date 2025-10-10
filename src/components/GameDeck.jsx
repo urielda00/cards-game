@@ -81,8 +81,7 @@ const BucketDisplay = styled.div`
 
 const KnowledgeControls = styled.div`
   display: flex;
-  width: 100%;
-  max-width: 350px;
+  width: 320px;
   gap: 1rem;
 `;
 
@@ -174,7 +173,7 @@ function GameDeck({ filteredCards }) {
         isConfirmModalOpen,
         setIsConfirmModalOpen,
         isSessionComplete,
-        displayCard,
+        currentCard,
         handleAnswer,
         toggleStarred,
         handleDelete,
@@ -193,7 +192,7 @@ function GameDeck({ filteredCards }) {
         );
     }
 
-    if (!displayCard) {
+    if (!currentCard) {
         return <NoCardsMessage><h2>אין כרטיסיות ברשימה זו. הוסף כמה כדי להתחיל!</h2></NoCardsMessage>;
     }
 
@@ -205,17 +204,17 @@ function GameDeck({ filteredCards }) {
                 onConfirm={handleDelete}
                 title="למחוק כרטיסייה?"
             >
-                <p>האם למחוק את הכרטיסייה: <br /><strong>"{displayCard?.front}"</strong>?</p>
+                <p>האם למחוק את הכרטיסייה: <br /><strong>"{currentCard?.front}"</strong>?</p>
             </ConfirmModal>
             <GameDeckWrapper>
                 <CardAnimationWrapper className={exitDirection ? `exit-${exitDirection}` : ''}>
                     <FlashcardWithControls>
-                        <Flashcard card={displayCard} isFlipped={isFlipped} setIsFlipped={setIsFlipped} />
+                        <Flashcard card={currentCard} isFlipped={isFlipped} setIsFlipped={setIsFlipped} />
                         <CardActionsOverlay>
-                            <ActionButton onClick={toggleStarred} className={displayCard.starred ? 'starred' : ''}>★</ActionButton>
+                            <ActionButton onClick={toggleStarred} className={currentCard.starred ? 'starred' : ''}>★</ActionButton>
                             <ActionButton onClick={() => setIsConfirmModalOpen(true)}>🗑️</ActionButton>
                         </CardActionsOverlay>
-                        <BucketDisplay>רמה: {displayCard.bucket}</BucketDisplay>
+                        <BucketDisplay>רמה: {currentCard.bucket}</BucketDisplay>
                     </FlashcardWithControls>
                 </CardAnimationWrapper>
                 {isFlipped && (
