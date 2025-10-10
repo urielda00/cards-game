@@ -1,10 +1,9 @@
 import { Link } from 'react-router-dom';
-import styled from 'styled-components'; // Import styled-components
+import styled from 'styled-components';
 import Flashcard from './Flashcard';
 import ConfirmModal from './ConfirmModal';
-import { useImageGameDeck } from '../hooks/useImageGameDeck'; // Import the new hook
+import { useImageGameDeck } from '../hooks/useImageGameDeck';
 
-// --- Styled Components Definitions ---
 const GameDeckWrapper = styled.div`
   display: flex;
   flex-direction: column;
@@ -21,7 +20,6 @@ const CardAnimationWrapper = styled.div`
   &:active {
     cursor: grabbing;
   }
-  /* Animation for card exit */
   &.exit-left {
     transform: translateX(150%) rotate(15deg);
     opacity: 0;
@@ -87,7 +85,8 @@ const BucketDisplay = styled.div`
 
 const KnowledgeControls = styled.div`
   display: flex;
-  width: 320px;
+  width: 100%;
+  max-width: 350px;
   gap: 1rem;
 `;
 
@@ -165,7 +164,6 @@ const NoCardsMessage = styled.div`
     text-align: center;
 `;
 
-// --- ImageGameDeck Component ---
 function ImageGameDeck({ filteredCards }) {
     const {
         sessionDeck,
@@ -180,7 +178,7 @@ function ImageGameDeck({ filteredCards }) {
         handleAnswer,
         toggleStarred,
         handleDelete,
-        startNewSession // Added back as it's used in Link onClick
+        startNewSession
     } = useImageGameDeck(filteredCards);
 
     if (isSessionComplete) {
