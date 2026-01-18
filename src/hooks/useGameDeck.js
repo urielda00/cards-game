@@ -28,9 +28,26 @@ export const useGameDeck = (filteredCards) => {
 		[filteredCards],
 	);
 
+	/**
+	 * Handles text-to-speech for the provided text.
+	 * Uses the browser's native SpeechSynthesis API.
+	 */
+	const speak = (text) => {
+		if ('speechSynthesis' in window) {
+			window.speechSynthesis.cancel();
+
+			const utterance = new SpeechSynthesisUtterance(text);
+			utterance.lang = 'en-US'; // Set language to English
+			utterance.rate = 0.9; // Slightly slower for better clarity
+
+			window.speechSynthesis.speak(utterance);
+		} else {
+			console.error('Speech synthesis not supported in this browser.');
+		}
+	};
+
 	const startNewSession = useCallback(() => {
 		if (filteredCards && filteredCards.length > 0) {
-			// Instead of weightedDeck, we just shuffle the filteredCards directly
 			setSessionDeck(shuffleArray([...filteredCards]));
 			setSessionIndex(0);
 			setIsSessionComplete(false);
@@ -175,5 +192,6 @@ export const useGameDeck = (filteredCards) => {
 		toggleStarred,
 		handleDelete,
 		startNewSession,
+		speak, // Exported speak function for UI usage
 	};
 };

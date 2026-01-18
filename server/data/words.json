@@ -1,704 +1,704 @@
 [
-	{
-		"id": "w1",
-		"type": "word",
-		"front": "abolish",
-		"back": "לבטל",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w2",
-		"type": "word",
-		"front": "abuse",
-		"back": "התעללות",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w3",
-		"type": "word",
-		"front": "actual",
-		"back": "אמיתי",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w4",
-		"type": "word",
-		"front": "additional",
-		"back": "נוסף",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w5",
-		"type": "word",
-		"front": "adoption",
-		"back": "אימוץ",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w6",
-		"type": "word",
-		"front": "affordable",
-		"back": "בר־השגה",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w7",
-		"type": "word",
-		"front": "alter",
-		"back": "לשנות",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w8",
-		"type": "word",
-		"front": "amusement",
-		"back": "שעשוע",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w9",
-		"type": "word",
-		"front": "appeal",
-		"back": "לפנות / לערער",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w10",
-		"type": "word",
-		"front": "assess",
-		"back": "להעריך",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w11",
-		"type": "word",
-		"front": "authority",
-		"back": "סמכות",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w12",
-		"type": "word",
-		"front": "aware",
-		"back": "מודע",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w13",
-		"type": "word",
-		"front": "biological",
-		"back": "ביולוגי",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w14",
-		"type": "word",
-		"front": "category",
-		"back": "קטגוריה",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w15",
-		"type": "word",
-		"front": "citizen",
-		"back": "אזרח",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w16",
-		"type": "word",
-		"front": "coincidence",
-		"back": "צירוף מקרים",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w17",
-		"type": "word",
-		"front": "compromise",
-		"back": "פשרה",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w18",
-		"type": "word",
-		"front": "conduct",
-		"back": "לנהל",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w19",
-		"type": "word",
-		"front": "consequence",
-		"back": "תוצאה",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w20",
-		"type": "word",
-		"front": "content",
-		"back": "תוכן",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w21",
-		"type": "word",
-		"front": "cooperation",
-		"back": "שיתוף פעולה",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w22",
-		"type": "word",
-		"front": "creatively",
-		"back": "ביצירתיות",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w23",
-		"type": "word",
-		"front": "criticism",
-		"back": "ביקורת",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w24",
-		"type": "word",
-		"front": "crucial",
-		"back": "מכריע",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w25",
-		"type": "word",
-		"front": "data",
-		"back": "נתונים",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w26",
-		"type": "word",
-		"front": "debate",
-		"back": "דיון",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w27",
-		"type": "word",
-		"front": "delight",
-		"back": "עונג",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w28",
-		"type": "word",
-		"front": "depression",
-		"back": "דיכאון",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w29",
-		"type": "word",
-		"front": "desire",
-		"back": "רצון",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w30",
-		"type": "word",
-		"front": "economy",
-		"back": "כלכלה",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w31",
-		"type": "word",
-		"front": "emotional",
-		"back": "רגשי",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w32",
-		"type": "word",
-		"front": "essentially",
-		"back": "בעיקרו",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w33",
-		"type": "word",
-		"front": "estimate",
-		"back": "להעריך",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w34",
-		"type": "word",
-		"front": "evolution",
-		"back": "התפתחות",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w35",
-		"type": "word",
-		"front": "exception",
-		"back": "חריג",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w36",
-		"type": "word",
-		"front": "expectation",
-		"back": "ציפייה",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w37",
-		"type": "word",
-		"front": "frustration",
-		"back": "תסכול",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w38",
-		"type": "word",
-		"front": "global",
-		"back": "עולמי",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w39",
-		"type": "word",
-		"front": "greatness",
-		"back": "גדולה",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w40",
-		"type": "word",
-		"front": "hint",
-		"back": "רמז",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w41",
-		"type": "word",
-		"front": "identify",
-		"back": "לזהות",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w42",
-		"type": "word",
-		"front": "identical",
-		"back": "זהה",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w43",
-		"type": "word",
-		"front": "incredible",
-		"back": "מדהים",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w44",
-		"type": "word",
-		"front": "incredibly",
-		"back": "באופן מדהים",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w45",
-		"type": "word",
-		"front": "indicate",
-		"back": "להצביע על",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w46",
-		"type": "word",
-		"front": "inspiration",
-		"back": "השראה",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w47",
-		"type": "word",
-		"front": "inspire",
-		"back": "להעניק השראה",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w48",
-		"type": "word",
-		"front": "insult",
-		"back": "עלבון",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w49",
-		"type": "word",
-		"front": "interact",
-		"back": "לקיים אינטראקציה",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w50",
-		"type": "word",
-		"front": "invest",
-		"back": "להשקיע",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w51",
-		"type": "word",
-		"front": "laughter",
-		"back": "צחוק",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w52",
-		"type": "word",
-		"front": "lecturer",
-		"back": "מרצה",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w53",
-		"type": "word",
-		"front": "loss",
-		"back": "אובדן",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w54",
-		"type": "word",
-		"front": "majority",
-		"back": "רוב",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w55",
-		"type": "word",
-		"front": "mental",
-		"back": "מנטלי",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w56",
-		"type": "word",
-		"front": "moral",
-		"back": "מוסרי",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w57",
-		"type": "word",
-		"front": "newly",
-		"back": "לאחרונה",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w58",
-		"type": "word",
-		"front": "observe",
-		"back": "להתבונן",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w59",
-		"type": "word",
-		"front": "occur",
-		"back": "להתרחש",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w60",
-		"type": "word",
-		"front": "oppose",
-		"back": "להתנגד",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w61",
-		"type": "word",
-		"front": "percentage",
-		"back": "אחוז",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w62",
-		"type": "word",
-		"front": "portion",
-		"back": "חלק",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w63",
-		"type": "word",
-		"front": "precious",
-		"back": "יקר",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w64",
-		"type": "word",
-		"front": "priority",
-		"back": "עדיפות",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w65",
-		"type": "word",
-		"front": "purchase",
-		"back": "רכישה",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w66",
-		"type": "word",
-		"front": "regulation",
-		"back": "תקנה",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w67",
-		"type": "word",
-		"front": "relatively",
-		"back": "באופן יחסי",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w68",
-		"type": "word",
-		"front": "remarkably",
-		"back": "באופן יוצא דופן",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w69",
-		"type": "word",
-		"front": "repeatedly",
-		"back": "שוב ושוב",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w70",
-		"type": "word",
-		"front": "schedule",
-		"back": "לוח זמנים",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w71",
-		"type": "word",
-		"front": "sensitive",
-		"back": "רגיש",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w72",
-		"type": "word",
-		"front": "significantly",
-		"back": "באופן משמעותי",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w73",
-		"type": "word",
-		"front": "straightforward",
-		"back": "ישיר",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w74",
-		"type": "word",
-		"front": "stubborn",
-		"back": "עקשן",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w75",
-		"type": "word",
-		"front": "suffer",
-		"back": "לסבול",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w76",
-		"type": "word",
-		"front": "survive",
-		"back": "לשרוד",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w77",
-		"type": "word",
-		"front": "visual",
-		"back": "חזותי",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	},
-	{
-		"id": "w78",
-		"type": "word",
-		"front": "widely",
-		"back": "באופן נרחב",
-		"bucket": 1,
-		"starred": false,
-		"listId": "testWords"
-	}
+  {
+    "id": "w1",
+    "type": "word",
+    "front": "abolish",
+    "back": "לבטל",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w2",
+    "type": "word",
+    "front": "abuse",
+    "back": "התעללות",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w3",
+    "type": "word",
+    "front": "actual",
+    "back": "אמיתי",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w4",
+    "type": "word",
+    "front": "additional",
+    "back": "נוסף",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w5",
+    "type": "word",
+    "front": "adoption",
+    "back": "אימוץ",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w6",
+    "type": "word",
+    "front": "affordable",
+    "back": "בר־השגה",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w7",
+    "type": "word",
+    "front": "alter",
+    "back": "לשנות",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w8",
+    "type": "word",
+    "front": "amusement",
+    "back": "שעשוע",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w9",
+    "type": "word",
+    "front": "appeal",
+    "back": "לפנות / לערער",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w10",
+    "type": "word",
+    "front": "assess",
+    "back": "להעריך",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w11",
+    "type": "word",
+    "front": "authority",
+    "back": "סמכות",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w12",
+    "type": "word",
+    "front": "aware",
+    "back": "מודע",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w13",
+    "type": "word",
+    "front": "biological",
+    "back": "ביולוגי",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w14",
+    "type": "word",
+    "front": "category",
+    "back": "קטגוריה",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w15",
+    "type": "word",
+    "front": "citizen",
+    "back": "אזרח",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w16",
+    "type": "word",
+    "front": "coincidence",
+    "back": "צירוף מקרים",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w17",
+    "type": "word",
+    "front": "compromise",
+    "back": "פשרה",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w18",
+    "type": "word",
+    "front": "conduct",
+    "back": "לנהל",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w19",
+    "type": "word",
+    "front": "consequence",
+    "back": "תוצאה",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w20",
+    "type": "word",
+    "front": "content",
+    "back": "תוכן",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w21",
+    "type": "word",
+    "front": "cooperation",
+    "back": "שיתוף פעולה",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w22",
+    "type": "word",
+    "front": "creatively",
+    "back": "ביצירתיות",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w23",
+    "type": "word",
+    "front": "criticism",
+    "back": "ביקורת",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w24",
+    "type": "word",
+    "front": "crucial",
+    "back": "מכריע",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w25",
+    "type": "word",
+    "front": "data",
+    "back": "נתונים",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w26",
+    "type": "word",
+    "front": "debate",
+    "back": "דיון",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w27",
+    "type": "word",
+    "front": "delight",
+    "back": "עונג",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w28",
+    "type": "word",
+    "front": "depression",
+    "back": "דיכאון",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w29",
+    "type": "word",
+    "front": "desire",
+    "back": "רצון",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w30",
+    "type": "word",
+    "front": "economy",
+    "back": "כלכלה",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w31",
+    "type": "word",
+    "front": "emotional",
+    "back": "רגשי",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w32",
+    "type": "word",
+    "front": "essentially",
+    "back": "בעיקרו",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w33",
+    "type": "word",
+    "front": "estimate",
+    "back": "להעריך",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w34",
+    "type": "word",
+    "front": "evolution",
+    "back": "התפתחות",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w35",
+    "type": "word",
+    "front": "exception",
+    "back": "חריג",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w36",
+    "type": "word",
+    "front": "expectation",
+    "back": "ציפייה",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w37",
+    "type": "word",
+    "front": "frustration",
+    "back": "תסכול",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w38",
+    "type": "word",
+    "front": "global",
+    "back": "עולמי",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w39",
+    "type": "word",
+    "front": "greatness",
+    "back": "גדולה",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w40",
+    "type": "word",
+    "front": "hint",
+    "back": "רמז",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w41",
+    "type": "word",
+    "front": "identify",
+    "back": "לזהות",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w42",
+    "type": "word",
+    "front": "identical",
+    "back": "זהה",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w43",
+    "type": "word",
+    "front": "incredible",
+    "back": "מדהים",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w44",
+    "type": "word",
+    "front": "incredibly",
+    "back": "באופן מדהים",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w45",
+    "type": "word",
+    "front": "indicate",
+    "back": "להצביע על",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w46",
+    "type": "word",
+    "front": "inspiration",
+    "back": "השראה",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w47",
+    "type": "word",
+    "front": "inspire",
+    "back": "להעניק השראה",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w48",
+    "type": "word",
+    "front": "insult",
+    "back": "עלבון",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w49",
+    "type": "word",
+    "front": "interact",
+    "back": "לקיים אינטראקציה",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w50",
+    "type": "word",
+    "front": "invest",
+    "back": "להשקיע",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w51",
+    "type": "word",
+    "front": "laughter",
+    "back": "צחוק",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w52",
+    "type": "word",
+    "front": "lecturer",
+    "back": "מרצה",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w53",
+    "type": "word",
+    "front": "loss",
+    "back": "אובדן",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w54",
+    "type": "word",
+    "front": "majority",
+    "back": "רוב",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w55",
+    "type": "word",
+    "front": "mental",
+    "back": "מנטלי",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w56",
+    "type": "word",
+    "front": "moral",
+    "back": "מוסרי",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w57",
+    "type": "word",
+    "front": "newly",
+    "back": "לאחרונה",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w58",
+    "type": "word",
+    "front": "observe",
+    "back": "להתבונן",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w59",
+    "type": "word",
+    "front": "occur",
+    "back": "להתרחש",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w60",
+    "type": "word",
+    "front": "oppose",
+    "back": "להתנגד",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w61",
+    "type": "word",
+    "front": "percentage",
+    "back": "אחוז",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w62",
+    "type": "word",
+    "front": "portion",
+    "back": "חלק",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w63",
+    "type": "word",
+    "front": "precious",
+    "back": "יקר",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w64",
+    "type": "word",
+    "front": "priority",
+    "back": "עדיפות",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w65",
+    "type": "word",
+    "front": "purchase",
+    "back": "רכישה",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w66",
+    "type": "word",
+    "front": "regulation",
+    "back": "תקנה",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w67",
+    "type": "word",
+    "front": "relatively",
+    "back": "באופן יחסי",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w68",
+    "type": "word",
+    "front": "remarkably",
+    "back": "באופן יוצא דופן",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w69",
+    "type": "word",
+    "front": "repeatedly",
+    "back": "שוב ושוב",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w70",
+    "type": "word",
+    "front": "schedule",
+    "back": "לוח זמנים",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w71",
+    "type": "word",
+    "front": "sensitive",
+    "back": "רגיש",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w72",
+    "type": "word",
+    "front": "significantly",
+    "back": "באופן משמעותי",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w73",
+    "type": "word",
+    "front": "straightforward",
+    "back": "ישיר",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w74",
+    "type": "word",
+    "front": "stubborn",
+    "back": "עקשן",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w75",
+    "type": "word",
+    "front": "suffer",
+    "back": "לסבול",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w76",
+    "type": "word",
+    "front": "survive",
+    "back": "לשרוד",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w77",
+    "type": "word",
+    "front": "visual",
+    "back": "חזותי",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  },
+  {
+    "id": "w78",
+    "type": "word",
+    "front": "widely",
+    "back": "באופן נרחב",
+    "bucket": 1,
+    "starred": false,
+    "listId": "testWords"
+  }
 ]

@@ -20,10 +20,10 @@ const loadDataIntoCache = async () => {
 		dataCache.words = JSON.parse(await fs.readFile(path.join(dataPath, 'words.json'), 'utf8'));
 		dataCache.lists = JSON.parse(await fs.readFile(path.join(dataPath, 'lists.json'), 'utf8'));
 		dataCache.imageCards = JSON.parse(
-			await fs.readFile(path.join(dataPath, 'imageCards.json'), 'utf8')
+			await fs.readFile(path.join(dataPath, 'imageCards.json'), 'utf8'),
 		);
 		dataCache.imageLists = JSON.parse(
-			await fs.readFile(path.join(dataPath, 'imageLists.json'), 'utf8')
+			await fs.readFile(path.join(dataPath, 'imageLists.json'), 'utf8'),
 		);
 		console.log('All data (words & images) loaded into cache successfully.');
 	} catch (error) {
@@ -35,8 +35,8 @@ const loadDataIntoCache = async () => {
 app.use(
 	cors({
 		//origin: 'https://cards-game-nb5r.onrender.com',
-		origin: 'https://cards-gamee.netlify.app',
-	})
+		origin: ['https://cards-gamee.netlify.app', 'http://localhost:5173'],
+	}),
 );
 app.use(express.json());
 
@@ -178,7 +178,7 @@ app.post('/api/image-lists', async (req, res) => {
 	try {
 		await fs.writeFile(
 			path.join(dataPath, 'imageLists.json'),
-			JSON.stringify(dataCache.imageLists, null, 2)
+			JSON.stringify(dataCache.imageLists, null, 2),
 		);
 		res.status(201).send(newList);
 	} catch (err) {
@@ -195,11 +195,11 @@ app.delete('/api/image-lists/:id', async (req, res) => {
 	try {
 		await fs.writeFile(
 			path.join(dataPath, 'imageLists.json'),
-			JSON.stringify(dataCache.imageLists, null, 2)
+			JSON.stringify(dataCache.imageLists, null, 2),
 		);
 		await fs.writeFile(
 			path.join(dataPath, 'imageCards.json'),
-			JSON.stringify(dataCache.imageCards, null, 2)
+			JSON.stringify(dataCache.imageCards, null, 2),
 		);
 		res.status(204).send();
 	} catch (err) {
@@ -226,7 +226,7 @@ app.patch('/api/image-cards/:id', async (req, res) => {
 	try {
 		await fs.writeFile(
 			path.join(dataPath, 'imageCards.json'),
-			JSON.stringify(dataCache.imageCards, null, 2)
+			JSON.stringify(dataCache.imageCards, null, 2),
 		);
 		res.status(200).send(dataCache.imageCards[cardIndex]);
 	} catch (err) {
@@ -243,7 +243,7 @@ app.delete('/api/image-cards/:id', async (req, res) => {
 	try {
 		await fs.writeFile(
 			path.join(dataPath, 'imageCards.json'),
-			JSON.stringify(dataCache.imageCards, null, 2)
+			JSON.stringify(dataCache.imageCards, null, 2),
 		);
 		res.status(204).send();
 	} catch (err) {
