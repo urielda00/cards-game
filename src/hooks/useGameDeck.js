@@ -25,20 +25,13 @@ export const useGameDeck = (filteredCards) => {
 				.map((c) => c.id)
 				.sort()
 				.join(','),
-		[filteredCards]
+		[filteredCards],
 	);
 
 	const startNewSession = useCallback(() => {
 		if (filteredCards && filteredCards.length > 0) {
-			const weightedDeck = [];
-			const weights = [5, 4, 3, 2, 1];
-			filteredCards.forEach((card) => {
-				const weight = weights[card.bucket - 1] || 1;
-				for (let i = 0; i < weight; i++) {
-					weightedDeck.push(card);
-				}
-			});
-			setSessionDeck(shuffleArray(weightedDeck));
+			// Instead of weightedDeck, we just shuffle the filteredCards directly
+			setSessionDeck(shuffleArray([...filteredCards]));
 			setSessionIndex(0);
 			setIsSessionComplete(false);
 		} else {
@@ -64,7 +57,13 @@ export const useGameDeck = (filteredCards) => {
 	}, [listId]);
 
 	const currentCardFromSession = useMemo(() => {
-		if (isSessionComplete || !sessionDeck || !sessionDeck.length || sessionIndex >= sessionDeck.length) return null;
+		if (
+			isSessionComplete ||
+			!sessionDeck ||
+			!sessionDeck.length ||
+			sessionIndex >= sessionDeck.length
+		)
+			return null;
 		return sessionDeck[sessionIndex];
 	}, [sessionDeck, sessionIndex, isSessionComplete]);
 
@@ -110,7 +109,7 @@ export const useGameDeck = (filteredCards) => {
 				}
 			}, 300);
 		},
-		[currentCard, sessionDeck, sessionIndex, handleSessionComplete]
+		[currentCard, sessionDeck, sessionIndex, handleSessionComplete],
 	);
 
 	const toggleStarred = async () => {
@@ -124,7 +123,9 @@ export const useGameDeck = (filteredCards) => {
 
 	const handleDelete = async () => {
 		try {
-			await fetch(`${import.meta.env.VITE_API_URL}/api/words/${currentCard.id}`, { method: 'DELETE' });
+			await fetch(`${import.meta.env.VITE_API_URL}/api/words/${currentCard.id}`, {
+				method: 'DELETE',
+			});
 			toast.success(`"${currentCard.front}" נמחקה.`);
 			dispatch({ type: 'DELETE_CARD', payload: { id: currentCard.id } });
 			setIsConfirmModalOpen(false);
@@ -150,7 +151,7 @@ export const useGameDeck = (filteredCards) => {
 				}
 			}
 		},
-		[isFlipped, handleAnswer, currentCard, isConfirmModalOpen, setIsFlipped]
+		[isFlipped, handleAnswer, currentCard, isConfirmModalOpen, setIsFlipped],
 	);
 
 	useEffect(() => {
