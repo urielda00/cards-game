@@ -38,7 +38,7 @@ export const useGameDeck = (filteredCards) => {
 
 			const utterance = new SpeechSynthesisUtterance(text);
 			utterance.lang = 'en-US'; // Set language to English
-			utterance.rate = 0.9; // Slightly slower for better clarity
+			utterance.rate = 0.6; // Slightly slower for better clarity
 
 			window.speechSynthesis.speak(utterance);
 		} else {
