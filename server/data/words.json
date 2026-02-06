@@ -700,5 +700,218 @@
     "bucket": 1,
     "starred": false,
     "listId": "testWords"
+  },{
+    "id": "w79",
+    "type": "word",
+    "front": "BFS",
+    "back": "O(|V|+|E|)",
+    "bucket": 1,
+    "starred": false,
+    "listId": "AlgoPrep"
+  },
+  {
+    "id": "w80",
+    "type": "word",
+    "front": "DFS",
+    "back": "O(|V|+|E|)",
+    "bucket": 1,
+    "starred": false,
+    "listId": "AlgoPrep"
+  },
+  {
+    "id": "w81",
+    "type": "word",
+    "front": "PRIM",
+    "back": "O(|E|log|V|)",
+    "bucket": 1,
+    "starred": false,
+    "listId": "AlgoPrep"
+  },
+  {
+    "id": "w82",
+    "type": "word",
+    "front": "Kruskal",
+    "back": "O(|E|log|E|)",
+    "bucket": 1,
+    "starred": false,
+    "listId": "AlgoPrep"
+  },
+  {
+    "id": "w83",
+    "type": "word",
+    "front": "Dijkstra",
+    "back": "O(|E|log|V|)",
+    "bucket": 1,
+    "starred": false,
+    "listId": "AlgoPrep"
+  },
+  {
+    "id": "w84",
+    "type": "word",
+    "front": "Bellman-Ford",
+    "back": "O(|V||E|)",
+    "bucket": 1,
+    "starred": false,
+    "listId": "AlgoPrep"
+  },
+  {
+    "id": "w85",
+    "type": "word",
+    "front": "Floyd-Warshall",
+    "back": "O(|V|^3)",
+    "bucket": 1,
+    "starred": false,
+    "listId": "AlgoPrep"
+  },
+  {
+    "id": "w86",
+    "type": "word",
+    "front": "Jhonson",
+    "back": "O(|V||E|log|V|)",
+    "bucket": 1,
+    "starred": false,
+    "listId": "AlgoPrep"
+  },
+  {
+    "id": "w87",
+    "type": "word",
+    "front": "ford-fulkerson",
+    "back": "O(|E||f*|)",
+    "bucket": 1,
+    "starred": false,
+    "listId": "AlgoPrep"
+  },{
+    "id": "w88",
+    "type": "word",
+    "front": "Kruskal with weights {1,2}",
+    "back": "Total time O(E) because Sorting is O(E) using Counting Sort",
+    "bucket": 1,
+    "starred": false,
+    "listId": "AlgoConcepts"
+  },
+  {
+    "id": "w89",
+    "type": "word",
+    "front": "DFS Parenthesis Theorem",
+    "back": "Intervals [u.d, u.f] are either disjoint or nested",
+    "bucket": 1,
+    "starred": false,
+    "listId": "AlgoConcepts"
+  },
+  {
+    "id": "w90",
+    "type": "word",
+    "front": "Matrix Chain DP recursion",
+    "back": "m[i,j] = min { m[i,k] + m[k+1,j] + p_{i-1}p_k p_j }",
+    "bucket": 1,
+    "starred": false,
+    "listId": "AlgoConcepts"
+  },
+  {
+    "id": "w91",
+    "type": "word",
+    "front": "Residual Edge (v,u)",
+    "back": "Backward edge capacity equals current flow f(u,v)",
+    "bucket": 1,
+    "starred": false,
+    "listId": "AlgoConcepts"
+  },
+  {
+    "id": "w92",
+    "type": "word",
+    "front": "BFS Distance Property",
+    "back": "v.d is the length of the shortest path in # of edges",
+    "bucket": 1,
+    "starred": false,
+    "listId": "AlgoConcepts"
+  },
+  {
+    "id": "w93",
+    "type": "word",
+    "front": "Bellman-Ford Loop count",
+    "back": "Runs |V|-1 times to ensure all shortest paths are found",
+    "bucket": 1,
+    "starred": false,
+    "listId": "AlgoConcepts"
+  },
+  {
+    "id": "w94",
+    "type": "word",
+    "front": "Directed Graph Root",
+    "back": "A vertex with a path to all other vertices in the graph",
+    "bucket": 1,
+    "starred": false,
+    "listId": "AlgoConcepts"
+  },
+  {
+    "id": "w95",
+    "type": "word",
+    "front": "Bipartite Matching to Flow",
+    "back": "Capacity of all edges set to 1",
+    "bucket": 1,
+    "starred": false,
+    "listId": "AlgoConcepts"
+  },
+  {
+    "id": "w96",
+    "type": "word",
+    "front": "Prim's key update",
+    "back": "v.key = min weight of edge connecting v to the MST tree",
+    "bucket": 1,
+    "starred": false,
+    "listId": "AlgoConcepts"
+  },{
+    "id": "w115",
+    "type": "word",
+    "front": "קשירות חזקה (Strongly Connected)",
+    "back": "בגרף מכוון: לכל זוג קדקדים u,v קיים מסלול מ-u ל-v וגם מ-v ל-u",
+    "bucket": 1,
+    "starred": false,
+    "listId": "AlgoDefinitions"
+  },
+  {
+    "id": "w116",
+    "type": "word",
+    "front": "רכיבים קשירים היטב (SCC)",
+    "back": "תתי-גרפים מקסימליים שבהם כל זוג קדקדים קשיר חזקה זה לזה",
+    "bucket": 1,
+    "starred": false,
+    "listId": "AlgoDefinitions"
+  },
+  {
+    "id": "w117",
+    "type": "word",
+    "front": "הגדרה של עץ",
+    "back": "גרף לא מכוון, קשיר וללא מעגלים",
+    "bucket": 1,
+    "starred": false,
+    "listId": "AlgoDefinitions"
+  },
+  {
+    "id": "w118",
+    "type": "word",
+    "front": "הגדרה של יער",
+    "back": "גרף ללא מעגלים (אוסף של עצי קשירות)",
+    "bucket": 1,
+    "starred": false,
+    "listId": "AlgoDefinitions"
+  },
+  {
+    "id": "w119",
+    "type": "word",
+    "front": "DAG",
+    "back": "גרף מכוון ללא מעגלים",
+    "bucket": 1,
+    "starred": false,
+    "listId": "AlgoDefinitions"
+  },
+  {
+    "id": "w123",
+    "type": "word",
+    "front": "גרף דו-צדדי (Bipartite)",
+    "back": "גרף שניתן לחלק את קדקדיו לשתי קבוצות זרות כך שאין קשתות בתוך כל קבוצה",
+    "bucket": 1,
+    "starred": false,
+    "listId": "AlgoDefinitions"
   }
 ]
