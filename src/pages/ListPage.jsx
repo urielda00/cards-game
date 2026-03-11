@@ -5,9 +5,16 @@ import ConfirmModal from '../components/ConfirmModal';
 import { useListManager } from '../hooks/useListManager';
 
 const PageWrapper = styled.div`
-  padding: 2rem;
+  padding: 2rem 1rem;
   max-width: 800px;
   margin: auto;
+  direction: rtl;
+`;
+
+const Title = styled.h1`
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
 `;
 
 const List = styled.ul`
@@ -16,75 +23,97 @@ const List = styled.ul`
 `;
 
 const ListItem = styled.li`
-  background: #f8f9fa;
-  border: 1px solid #dee2e6;
-  padding: 1rem 1.5rem;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  padding: 1.2rem;
   margin-bottom: 1rem;
-  border-radius: 8px;
+  border-radius: 12px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  transition: box-shadow 0.2s;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+  transition: transform 0.2s;
 
   &:hover {
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
   }
 
   @media (max-width: 600px) {
     flex-direction: column;
-    align-items: stretch;
-    gap: 1rem;
+    text-align: center;
+    gap: 1.2rem;
   }
 `;
 
 const ListLink = styled(Link)`
   text-decoration: none;
   color: #007bff;
-  font-size: 1.2rem;
-  font-weight: bold;
+  font-size: 1.25rem;
+  font-weight: 700;
 `;
 
 const ButtonGroup = styled.div`
   display: flex;
-  gap: 0.5rem;
+  gap: 0.8rem;
   align-items: center;
+
+  @media (max-width: 600px) {
+    width: 100%;
+    justify-content: center;
+  }
 `;
 
 const ActionButton = styled.button`
-  padding: 0.3rem 0.6rem;
-  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.95rem;
   cursor: pointer;
-  background: transparent;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: all 0.2s;
   
   &:hover {
-    background: #e9ecef;
+    background: #f8f9fa;
+    border-color: #007bff;
   }
 `;
 
 const DeleteButton = styled(ActionButton)`
-    color: #dc3545;
+  color: #dc3545;
+  &:hover {
+    background: #fff5f5;
     border-color: #dc3545;
-    &:hover { background: #dc3545; color: white; }
+  }
 `;
 
 const CreateForm = styled.form`
   display: flex;
-  gap: 1rem;
-  margin-top: 2rem;
+  gap: 0.8rem;
+  margin-top: 2.5rem;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 -2px 10px rgba(0,0,0,0.05);
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
 `;
 
 const FormInput = styled.input`
   flex-grow: 1;
-  padding: 0.75rem;
+  padding: 0.8rem;
   font-size: 1rem;
   border: 1px solid #ccc;
   border-radius: 8px;
+  text-align: right;
 `;
 
 const FormButton = styled.button`
-  padding: 0.75rem 1.5rem;
+  padding: 0.8rem 1.5rem;
   font-size: 1rem;
   background-color: #007bff;
   color: white;
@@ -113,44 +142,25 @@ function ListPage() {
   return (
     <>
       <Header />
-      <ConfirmModal
-        isOpen={!!listToDelete}
-        onClose={() => setListToDelete(null)}
-        onConfirm={handleDeleteList}
-        title="למחוק רשימה?"
-      >
-        <p>האם אתה בטוח שברצונך למחוק את הרשימה: <br/><strong>"{listToDelete?.name}"</strong>?</p>
-        <p><small>פעולה זו תמחק גם את כל המילים שברשימה.</small></p>
+      <ConfirmModal isOpen={!!listToDelete} onClose={() => setListToDelete(null)} onConfirm={handleDeleteList} title="למחוק רשימה?">
+        <p>האם למחוק את הרשימה: <br/><strong>"{listToDelete?.name}"</strong>?</p>
       </ConfirmModal>
 
-      <ConfirmModal
-        isOpen={!!listToReset}
-        onClose={() => setListToReset(null)}
-        onConfirm={handleResetCompletion}
-        title="לאפס סטטוס?"
-      >
-        <p>האם לאפס את סטטוס ההשלמה של הרשימה: <br/><strong>"{listToReset?.name}"</strong>?</p>
-      </ConfirmModal>
-      
       <PageWrapper>
-        <h1>רשימות המילים שלך</h1>
+        <Title>רשימות המילים שלך</Title>
         <List>
           {lists.map(list => (
             <ListItem key={list.id}>
               {editingListId === list.id ? (
-                <CreateForm onSubmit={handleSaveEdit} style={{ flexGrow: 1, marginTop: 0 }}>
+                <div style={{ display: 'flex', gap: '0.5rem', width: '100%' }}>
                   <FormInput type="text" value={editingName} onChange={(e) => setEditingName(e.target.value)} autoFocus />
-                  <ActionButton type="submit">שמור</ActionButton>
-                  <ActionButton type="button" onClick={handleCancelEdit}>בטל</ActionButton>
-                </CreateForm>
+                  <ActionButton onClick={handleSaveEdit}>שמור</ActionButton>
+                  <ActionButton onClick={handleCancelEdit}>בטל</ActionButton>
+                </div>
               ) : (
                 <>
                   <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-                    {list.completed && (
-                        <span onClick={() => setListToReset(list)} style={{ cursor: 'pointer', fontSize: '1.5rem' }} title="אפס סטטוס השלמה">
-                            ✅
-                        </span>
-                    )}
+                    {list.completed && <span style={{ fontSize: '1.4rem' }}>✅</span>}
                     <ListLink to={`/lists/${list.id}`}>{list.name}</ListLink>
                   </div>
                   <ButtonGroup>
@@ -163,12 +173,7 @@ function ListPage() {
           ))}
         </List>
         <CreateForm onSubmit={handleCreateList}>
-          <FormInput
-            type="text"
-            value={newListName}
-            onChange={(e) => setNewListName(e.target.value)}
-            placeholder="שם לרשימה חדשה"
-          />
+          <FormInput type="text" value={newListName} onChange={(e) => setNewListName(e.target.value)} placeholder="שם לרשימה חדשה..." />
           <FormButton type="submit">צור רשימה</FormButton>
         </CreateForm>
       </PageWrapper>

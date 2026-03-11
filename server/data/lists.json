@@ -1,19 +1,15 @@
 [
-  {
-    "id": "testWords",
-    "name": "testWords",
-    "completed": false
-  },{
+ {
     "id": "AlgoPrep",
     "name": "AlgoPrep",
     "completed": false
   },{
-    "id": "AlgoConcepts",
-    "name": "AlgoConcepts",
+    "id": "בוחן אמצע שובל רשימה 1",
+    "name": "בוחן אמצע שובל רשימה 1",
     "completed": false
   },{
-    "id": "AlgoDefinitions",
-    "name": "AlgoDefinitions",
+    "id": "בוחן אמצע שובל רשימה 2",
+    "name": "בוחן אמצע שובל רשימה 2",
     "completed": false
   }
 ]
