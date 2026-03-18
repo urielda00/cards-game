@@ -160,12 +160,21 @@ function ListPage() {
               ) : (
                 <>
                   <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-                    {list.completed && <span style={{ fontSize: '1.4rem' }}>✅</span>}
+                   {list.completed && (
+                   <span 
+                        style={{ fontSize: '1.4rem', cursor: 'pointer' }} 
+                        onClick={() => handleResetCompletion(list)}
+                        title="לחץ לביטול ההשלמה"
+                      >
+                        ✅
+                   </span>
+                    )}
                     <ListLink to={`/lists/${list.id}`}>{list.name}</ListLink>
                   </div>
                   <ButtonGroup>
                     <ActionButton onClick={() => handleStartEdit(list)}>✏️ ערוך</ActionButton>
                     <DeleteButton onClick={() => setListToDelete(list)}>🗑️ מחק</DeleteButton>
+                    <ActionButton onClick={() => handleResetCompletion(list)}>🔄 אפס</ActionButton>
                   </ButtonGroup>
                 </>
               )}

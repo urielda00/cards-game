@@ -6,7 +6,7 @@
     "back": "O(|V|+|E|)",
     "bucket": 1,
     "starred": false,
-    "listId": "AlgoPrep"
+    "listId": "1"
   },
   {
     "id": "w2",
@@ -15,7 +15,7 @@
     "back": "O(|V|+|E|)",
     "bucket": 1,
     "starred": false,
-    "listId": "AlgoPrep"
+    "listId": "1"
   },
   {
     "id": "w3",
@@ -24,7 +24,7 @@
     "back": "O(|E|log|V|)",
     "bucket": 1,
     "starred": false,
-    "listId": "AlgoPrep"
+    "listId": "1"
   },
   {
     "id": "w4",
@@ -33,7 +33,7 @@
     "back": "O(|E|log|E|)",
     "bucket": 1,
     "starred": false,
-    "listId": "AlgoPrep"
+    "listId": "1"
   },
   {
     "id": "w5",
@@ -42,7 +42,7 @@
     "back": "O(|E|log|V|)",
     "bucket": 1,
     "starred": false,
-    "listId": "AlgoPrep"
+    "listId": "1"
   },
   {
     "id": "w6",
@@ -51,7 +51,7 @@
     "back": "O(|V||E|)",
     "bucket": 1,
     "starred": false,
-    "listId": "AlgoPrep"
+    "listId": "1"
   },
   {
     "id": "w7",
@@ -60,7 +60,7 @@
     "back": "O(|V|^3)",
     "bucket": 1,
     "starred": false,
-    "listId": "AlgoPrep"
+    "listId": "1"
   },
   {
     "id": "w8",
@@ -69,7 +69,7 @@
     "back": "O(|V||E|log|V|)",
     "bucket": 1,
     "starred": false,
-    "listId": "AlgoPrep"
+    "listId": "1"
   },
   {
     "id": "w9",
@@ -78,457 +78,7 @@
     "back": "O(|E||f*|)",
     "bucket": 1,
     "starred": false,
-    "listId": "AlgoPrep"
-  },
-  {
-    "id": "w10",
-    "type": "word",
-    "front": "ruin",
-    "back": "להרוס, חורבן",
-    "bucket": 1,
-    "starred": false,
-    "listId": "בוחן אמצע שובל רשימה 1"
-  },
-  {
-    "id": "w11",
-    "type": "word",
-    "front": "penalty",
-    "back": "עונש, קנס",
-    "bucket": 1,
-    "starred": false,
-    "listId": "בוחן אמצע שובל רשימה 1"
-  },
-  {
-    "id": "w12",
-    "type": "word",
-    "front": "evidence",
-    "back": "ראיות, הוכחה",
-    "bucket": 1,
-    "starred": false,
-    "listId": "בוחן אמצע שובל רשימה 1"
-  },
-  {
-    "id": "w13",
-    "type": "word",
-    "front": "guarantee",
-    "back": "להבטיח, ערבות",
-    "bucket": 1,
-    "starred": false,
-    "listId": "בוחן אמצע שובל רשימה 1"
-  },
-  {
-    "id": "w14",
-    "type": "word",
-    "front": "constantly",
-    "back": "ללא הרף, באופן קבוע",
-    "bucket": 1,
-    "starred": false,
-    "listId": "בוחן אמצע שובל רשימה 1"
-  },
-  {
-    "id": "w15",
-    "type": "word",
-    "front": "credentials",
-    "back": "תעודות, כישורים, המלצות",
-    "bucket": 1,
-    "starred": false,
-    "listId": "בוחן אמצע שובל רשימה 1"
-  },
-  {
-    "id": "w16",
-    "type": "word",
-    "front": "justify",
-    "back": "להצדיק",
-    "bucket": 1,
-    "starred": false,
-    "listId": "בוחן אמצע שובל רשימה 1"
-  },
-  {
-    "id": "w17",
-    "type": "word",
-    "front": "implement",
-    "back": "ליישם, להוציא לפועל",
-    "bucket": 1,
-    "starred": false,
-    "listId": "בוחן אמצע שובל רשימה 1"
-  },
-  {
-    "id": "w18",
-    "type": "word",
-    "front": "instruments",
-    "back": "מכשירים, כלים",
-    "bucket": 1,
-    "starred": false,
-    "listId": "בוחן אמצע שובל רשימה 1"
-  },
-  {
-    "id": "w19",
-    "type": "word",
-    "front": "prevent",
-    "back": "למנוע",
-    "bucket": 1,
-    "starred": false,
-    "listId": "בוחן אמצע שובל רשימה 1"
-  },
-  {
-    "id": "w20",
-    "type": "word",
-    "front": "corporations",
-    "back": "תאגידים",
-    "bucket": 1,
-    "starred": false,
-    "listId": "בוחן אמצע שובל רשימה 1"
-  },
-  {
-    "id": "w21",
-    "type": "word",
-    "front": "propel",
-    "back": "להניע, לדחוף קדימה",
-    "bucket": 1,
-    "starred": false,
-    "listId": "בוחן אמצע שובל רשימה 1"
-  },
-  {
-    "id": "w22",
-    "type": "word",
-    "front": "appeal",
-    "back": "לערער, למשוך תשומת לב, פנייה",
-    "bucket": 1,
-    "starred": false,
-    "listId": "בוחן אמצע שובל רשימה 1"
-  },
-  {
-    "id": "w23",
-    "type": "word",
-    "front": "personnel",
-    "back": "כוח אדם, סגל",
-    "bucket": 1,
-    "starred": false,
-    "listId": "בוחן אמצע שובל רשימה 1"
-  },
-  {
-    "id": "w24",
-    "type": "word",
-    "front": "exhibit",
-    "back": "להציג, מוצג",
-    "bucket": 1,
-    "starred": false,
-    "listId": "בוחן אמצע שובל רשימה 1"
-  },
-  {
-    "id": "w25",
-    "type": "word",
-    "front": "confidential",
-    "back": "סודי, חסוי",
-    "bucket": 1,
-    "starred": false,
-    "listId": "בוחן אמצע שובל רשימה 1"
-  },
-  {
-    "id": "w26",
-    "type": "word",
-    "front": "motive",
-    "back": "מניע",
-    "bucket": 2,
-    "starred": false,
-    "listId": "בוחן אמצע שובל רשימה 1"
-  },
-  {
-    "id": "w27",
-    "type": "word",
-    "front": "approximately",
-    "back": "בערך, בקירוב",
-    "bucket": 1,
-    "starred": false,
-    "listId": "בוחן אמצע שובל רשימה 1"
-  },
-  {
-    "id": "w28",
-    "type": "word",
-    "front": "consumption",
-    "back": "צריכה",
-    "bucket": 1,
-    "starred": false,
-    "listId": "בוחן אמצע שובל רשימה 1"
-  },
-  {
-    "id": "w29",
-    "type": "word",
-    "front": "diverse",
-    "back": "מגוון",
-    "bucket": 1,
-    "starred": false,
-    "listId": "בוחן אמצע שובל רשימה 1"
-  },
-  {
-    "id": "w30",
-    "type": "word",
-    "front": "conscious",
-    "back": "מודע",
-    "bucket": 1,
-    "starred": false,
-    "listId": "בוחן אמצע שובל רשימה 1"
-  },
-  {
-    "id": "w31",
-    "type": "word",
-    "front": "obtain",
-    "back": "להשיג, לקבל",
-    "bucket": 1,
-    "starred": false,
-    "listId": "בוחן אמצע שובל רשימה 1"
-  },
-  {
-    "id": "w32",
-    "type": "word",
-    "front": "devastate",
-    "back": "להרוס, להחריב",
-    "bucket": 1,
-    "starred": false,
-    "listId": "בוחן אמצע שובל רשימה 1"
-  },
-  {
-    "id": "w33",
-    "type": "word",
-    "front": "arrogant",
-    "back": "יהיר, שחצן",
-    "bucket": 1,
-    "starred": false,
-    "listId": "בוחן אמצע שובל רשימה 1"
-  },
-  {
-    "id": "w34",
-    "type": "word",
-    "front": "mandates",
-    "back": "מנדטים, צווים, ייפויי כוח",
-    "bucket": 1,
-    "starred": false,
-    "listId": "בוחן אמצע שובל רשימה 1"
-  },
-  {
-    "id": "w35",
-    "type": "word",
-    "front": "express",
-    "back": "להביע, מהיר",
-    "bucket": 1,
-    "starred": false,
-    "listId": "בוחן אמצע שובל רשימה 2"
-  },
-  {
-    "id": "w36",
-    "type": "word",
-    "front": "former",
-    "back": "קודם, לשעבר",
-    "bucket": 1,
-    "starred": false,
-    "listId": "בוחן אמצע שובל רשימה 2"
-  },
-  {
-    "id": "w37",
-    "type": "word",
-    "front": "expose",
-    "back": "לחשוף",
-    "bucket": 1,
-    "starred": false,
-    "listId": "בוחן אמצע שובל רשימה 2"
-  },
-  {
-    "id": "w38",
-    "type": "word",
-    "front": "further",
-    "back": "נוסף, הלאה, רחוק יותר",
-    "bucket": 1,
-    "starred": false,
-    "listId": "בוחן אמצע שובל רשימה 2"
-  },
-  {
-    "id": "w39",
-    "type": "word",
-    "front": "discrimination",
-    "back": "אפליה",
-    "bucket": 1,
-    "starred": false,
-    "listId": "בוחן אמצע שובל רשימה 2"
-  },
-  {
-    "id": "w40",
-    "type": "word",
-    "front": "economy",
-    "back": "כלכללה",
-    "bucket": 1,
-    "starred": false,
-    "listId": "בוחן אמצע שובל רשימה 2"
-  },
-  {
-    "id": "w41",
-    "type": "word",
-    "front": "equivalent",
-    "back": "שווה ערך",
-    "bucket": 1,
-    "starred": false,
-    "listId": "בוחן אמצע שובל רשימה 2"
-  },
-  {
-    "id": "w42",
-    "type": "word",
-    "front": "mislead",
-    "back": "להטעות",
-    "bucket": 1,
-    "starred": false,
-    "listId": "בוחן אמצע שובל רשימה 2"
-  },
-  {
-    "id": "w43",
-    "type": "word",
-    "front": "immigrants",
-    "back": "מהגרים",
-    "bucket": 1,
-    "starred": false,
-    "listId": "בוחן אמצע שובל רשימה 2"
-  },
-  {
-    "id": "w44",
-    "type": "word",
-    "front": "cater",
-    "back": "לספק שירות/צרכים, לספק כיבוד",
-    "bucket": 1,
-    "starred": false,
-    "listId": "בוחן אמצע שובל רשימה 2"
-  },
-  {
-    "id": "w45",
-    "type": "word",
-    "front": "accomplishments",
-    "back": "הישגים",
-    "bucket": 1,
-    "starred": false,
-    "listId": "בוחן אמצע שובל רשימה 2"
-  },
-  {
-    "id": "w46",
-    "type": "word",
-    "front": "crucial",
-    "back": "מכריע, קריטי",
-    "bucket": 1,
-    "starred": false,
-    "listId": "בוחן אמצע שובל רשימה 2"
-  },
-  {
-    "id": "w47",
-    "type": "word",
-    "front": "comply",
-    "back": "לציית, להיענות ל-",
-    "bucket": 1,
-    "starred": false,
-    "listId": "בוחן אמצע שובל רשימה 2"
-  },
-  {
-    "id": "w48",
-    "type": "word",
-    "front": "occasional",
-    "back": "מקרי, שקורה מדי פעם",
-    "bucket": 1,
-    "starred": false,
-    "listId": "בוחן אמצע שובל רשימה 2"
-  },
-  {
-    "id": "w49",
-    "type": "word",
-    "front": "establish",
-    "back": "להקים, לבסס",
-    "bucket": 1,
-    "starred": false,
-    "listId": "בוחן אמצע שובל רשימה 2"
-  },
-  {
-    "id": "w50",
-    "type": "word",
-    "front": "defy",
-    "back": "להתריס, להתנגד, לאתגר",
-    "bucket": 1,
-    "starred": false,
-    "listId": "בוחן אמצע שובל רשימה 2"
-  },
-  {
-    "id": "w51",
-    "type": "word",
-    "front": "profitability",
-    "back": "רווחיות",
-    "bucket": 1,
-    "starred": false,
-    "listId": "בוחן אמצע שובל רשימה 2"
-  },
-  {
-    "id": "w52",
-    "type": "word",
-    "front": "accurate",
-    "back": "מדויק",
-    "bucket": 1,
-    "starred": false,
-    "listId": "בוחן אמצע שובל רשימה 2"
-  },
-  {
-    "id": "w53",
-    "type": "word",
-    "front": "determine",
-    "back": "לקבוע, להחליט",
-    "bucket": 1,
-    "starred": false,
-    "listId": "בוחן אמצע שובל רשימה 2"
-  },
-  {
-    "id": "w54",
-    "type": "word",
-    "front": "alarm",
-    "back": "אזעקה, להבהיל",
-    "bucket": 1,
-    "starred": false,
-    "listId": "בוחן אמצע שובל רשימה 2"
-  },
-  {
-    "id": "w55",
-    "type": "word",
-    "front": "despite",
-    "back": "למרות",
-    "bucket": 1,
-    "starred": false,
-    "listId": "בוחן אמצע שובל רשימה 2"
-  },
-  {
-    "id": "w56",
-    "type": "word",
-    "front": "abandon",
-    "back": "לנטוש",
-    "bucket": 1,
-    "starred": false,
-    "listId": "בוחן אמצע שובל רשימה 2"
-  },
-  {
-    "id": "w57",
-    "type": "word",
-    "front": "devote",
-    "back": "להקדיש",
-    "bucket": 1,
-    "starred": false,
-    "listId": "בוחן אמצע שובל רשימה 2"
-  },
-  {
-    "id": "w58",
-    "type": "word",
-    "front": "impair",
-    "back": "לפגום, להחליש",
-    "bucket": 1,
-    "starred": false,
-    "listId": "בוחן אמצע שובל רשימה 2"
-  },
-  {
-    "id": "w59",
-    "type": "word",
-    "front": "constant",
-    "back": "קבוע, רצוף",
-    "bucket": 1,
-    "starred": false,
-    "listId": "בוחן אמצע שובל רשימה 2"
+    "listId": "1"
   },
   {
     "id": "w60",
@@ -1150,5 +700,275 @@
     "bucket": 1,
     "starred": false,
     "listId": "4"
+  },
+  {
+    "id": "w129",
+    "type": "word",
+    "front": "bias",
+    "back": "הטיה (דעה קדומה)",
+    "bucket": 1,
+    "starred": false,
+    "listId": "2"
+  },
+  {
+    "id": "w130",
+    "type": "word",
+    "front": "citation",
+    "back": "ציטוט / אזכור",
+    "bucket": 1,
+    "starred": false,
+    "listId": "2"
+  },
+  {
+    "id": "w131",
+    "type": "word",
+    "front": "commentary",
+    "back": "פרשנות / דברי הסבר",
+    "bucket": 1,
+    "starred": false,
+    "listId": "2"
+  },
+  {
+    "id": "w132",
+    "type": "word",
+    "front": "credential",
+    "back": "תעודת הסמכה / כישורים",
+    "bucket": 1,
+    "starred": false,
+    "listId": "2"
+  },
+  {
+    "id": "w133",
+    "type": "word",
+    "front": "discrimination",
+    "back": "אפליה",
+    "bucket": 1,
+    "starred": false,
+    "listId": "2"
+  },
+  {
+    "id": "w134",
+    "type": "word",
+    "front": "evidence",
+    "back": "ראיה / ראיות",
+    "bucket": 1,
+    "starred": false,
+    "listId": "2"
+  },
+  {
+    "id": "w135",
+    "type": "word",
+    "front": "glorification",
+    "back": "האדרה / פיאור",
+    "bucket": 1,
+    "starred": false,
+    "listId": "2"
+  },
+  {
+    "id": "w136",
+    "type": "word",
+    "front": "literacy",
+    "back": "אוריינות (ידיעת קרוא וכתוב / בקיאות בתחום מסוים)",
+    "bucket": 1,
+    "starred": false,
+    "listId": "2"
+  },
+  {
+    "id": "w137",
+    "type": "word",
+    "front": "motive",
+    "back": "מניע",
+    "bucket": 1,
+    "starred": false,
+    "listId": "2"
+  },
+  {
+    "id": "w138",
+    "type": "word",
+    "front": "reliability",
+    "back": "אמינות",
+    "bucket": 1,
+    "starred": false,
+    "listId": "2"
+  },
+  {
+    "id": "w139",
+    "type": "word",
+    "front": "accurate",
+    "back": "מדויק",
+    "bucket": 1,
+    "starred": false,
+    "listId": "2"
+  },
+  {
+    "id": "w140",
+    "type": "word",
+    "front": "conceivable",
+    "back": "מתקבל על הדעת / סביר",
+    "bucket": 1,
+    "starred": false,
+    "listId": "2"
+  },
+  {
+    "id": "w141",
+    "type": "word",
+    "front": "credible",
+    "back": "מהימן / אמין",
+    "bucket": 1,
+    "starred": false,
+    "listId": "2"
+  },
+  {
+    "id": "w142",
+    "type": "word",
+    "front": "crucial",
+    "back": "מכריע / חיוני",
+    "bucket": 1,
+    "starred": false,
+    "listId": "2"
+  },
+  {
+    "id": "w143",
+    "type": "word",
+    "front": "prevalent",
+    "back": "שכיח / נפוץ",
+    "bucket": 1,
+    "starred": false,
+    "listId": "2"
+  },
+  {
+    "id": "w144",
+    "type": "word",
+    "front": "prone",
+    "back": "נוטה ל... / מועד ל...",
+    "bucket": 1,
+    "starred": false,
+    "listId": "2"
+  },
+  {
+    "id": "w145",
+    "type": "word",
+    "front": "questionable",
+    "back": "מוטל בספק",
+    "bucket": 1,
+    "starred": false,
+    "listId": "2"
+  },
+  {
+    "id": "w146",
+    "type": "word",
+    "front": "reputable",
+    "back": "בעל מוניטין טוב / מכובד",
+    "bucket": 1,
+    "starred": false,
+    "listId": "2"
+  },
+  {
+    "id": "w147",
+    "type": "word",
+    "front": "verifiable",
+    "back": "ניתן לאימות",
+    "bucket": 1,
+    "starred": false,
+    "listId": "2"
+  },
+  {
+    "id": "w148",
+    "type": "word",
+    "front": "ensure",
+    "back": "להבטיח / לוודא",
+    "bucket": 1,
+    "starred": false,
+    "listId": "2"
+  },
+  {
+    "id": "w149",
+    "type": "word",
+    "front": "evoke",
+    "back": "לעורר / להעלות (למשל זיכרון או רגש)",
+    "bucket": 1,
+    "starred": false,
+    "listId": "2"
+  },
+  {
+    "id": "w150",
+    "type": "word",
+    "front": "guarantee",
+    "back": "להבטיח / לערוב",
+    "bucket": 1,
+    "starred": false,
+    "listId": "2"
+  },
+  {
+    "id": "w151",
+    "type": "word",
+    "front": "mislead",
+    "back": "להטעות",
+    "bucket": 1,
+    "starred": false,
+    "listId": "2"
+  },
+  {
+    "id": "w152",
+    "type": "word",
+    "front": "obtain",
+    "back": "להשיג / לקבל",
+    "bucket": 1,
+    "starred": false,
+    "listId": "2"
+  },
+  {
+    "id": "w153",
+    "type": "word",
+    "front": "regulate",
+    "back": "לווסת / להסדיר",
+    "bucket": 1,
+    "starred": false,
+    "listId": "2"
+  },
+  {
+    "id": "w154",
+    "type": "word",
+    "front": "reside",
+    "back": "לשכון / להתגורר",
+    "bucket": 1,
+    "starred": false,
+    "listId": "2"
+  },
+  {
+    "id": "w155",
+    "type": "word",
+    "front": "ruin",
+    "back": "להרוס",
+    "bucket": 1,
+    "starred": false,
+    "listId": "2"
+  },
+  {
+    "id": "w156",
+    "type": "word",
+    "front": "meticulously",
+    "back": "בדקדקנות / בקפידה",
+    "bucket": 1,
+    "starred": false,
+    "listId": "2"
+  },
+  {
+    "id": "w157",
+    "type": "word",
+    "front": "precisely",
+    "back": "בדיוק / במדויק",
+    "bucket": 1,
+    "starred": false,
+    "listId": "2"
+  },
+  {
+    "id": "w158",
+    "type": "word",
+    "front": "thus",
+    "back": "לפיכך / לכן / כך",
+    "bucket": 1,
+    "starred": false,
+    "listId": "2"
   }
 ]

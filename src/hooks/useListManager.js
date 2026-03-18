@@ -79,23 +79,27 @@ export const useListManager = (apiBaseUrl) => {
 		}
 	};
 
-	const handleResetCompletion = async () => {
-		if (!listToReset) return;
-		try {
-			const response = await fetch(`${import.meta.env.VITE_API_URL}${apiBaseUrl}/${listToReset.id}/complete`, {
-				method: 'PATCH',
-				headers: { 'Content-Type': 'application/json' },
-				body: JSON.stringify({ completed: false }),
-			});
-			const updatedList = await response.json();
-			setLists(lists.map((list) => (list.id === listToReset.id ? updatedList : list)));
-			toast('סטטוס ההשלמה אופס!');
-			setListToReset(null);
-		} catch (error) {
-			toast.error('איפוס הסטטוס נכשל.');
-			setListToReset(null);
-		}
-	};
+	const handleResetCompletion = async (listFromClick) => {
+  // Use the passed list or the state one
+  const targetList = listFromClick || listToReset;
+  if (!targetList) return;
+
+  try {
+    const response = await fetch(`${import.meta.env.VITE_API_URL}${apiBaseUrl}/${targetList.id}/complete`, {
+      method: 'PATCH',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ completed: false }),
+    });
+    
+    const updatedList = await response.json();
+    setLists(lists.map((list) => (list.id === targetList.id ? updatedList : list)));
+    toast.success('הסימון הוסר!');
+    setListToReset(null);
+  } catch (error) {
+    toast.error('איפוס הסטטוס נכשל.');
+    setListToReset(null);
+  }
+};
 
 	return {
 		lists,

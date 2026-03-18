@@ -105,15 +105,16 @@ function HomePage() {
         <PageContent>
           <Title>Flashcards App</Title>
           <ButtonsWrapper>
-            <ButtonLink to="/lists">משחק מילים</ButtonLink>
+            <ButtonLink to="/lists">כרטיסיות</ButtonLink>
             <ButtonLink 
+            
               to="/image-lists" 
               style={{
                 background: 'rgba(40, 167, 69, 0.8)', 
                 boxShadow: '0 0 15px rgba(40, 167, 69, 0.6)'
               }}
             >
-              משחק תמונות
+               תמונות
             </ButtonLink>
             <ButtonLink 
               to="/games" 

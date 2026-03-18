@@ -1,18 +1,14 @@
 [
  {
-    "id": "AlgoPrep",
+    "id": "1",
     "name": "AlgoPrep",
     "completed": false
   },{
-    "id": "בוחן אמצע שובל רשימה 1",
-    "name": "בוחן אמצע שובל רשימה 1",
+    "id": "2",
+    "name": "שובל רשימה 1",
     "completed": false
   },{
-    "id": "בוחן אמצע שובל רשימה 2",
-    "name": "בוחן אמצע שובל רשימה 2",
-    "completed": false
-  },{
-    "id": 4,
+    "id": 3,
     "name": "מילים באנגלית אמא",
     "completed": false
   }
