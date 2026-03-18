@@ -31,37 +31,52 @@ const CardAnimationWrapper = styled.div`
 `;
 
 const FlashcardWithControls = styled.div`
-	position: relative;
+	display: flex;
+	/* Ensures the side menu stretches to the same height as the card */
+	align-items: stretch; 
 	margin-bottom: 2rem;
+	flex-direction: row;
+	direction: ltr;
+`;
+
+const CardContainer = styled.div`
+	position: relative;
+	/* Removing right radius to merge with the sidebar */
+	& > div {
+		border-top-right-radius: 0 !important;
+		border-bottom-right-radius: 0 !important;
+	}
 `;
 
 const CardActionsOverlay = styled.div`
-	position: absolute;
-	top: 15px;
-	right: 15px;
 	display: flex;
 	flex-direction: column;
-	gap: 10px;
+	justify-content: center; /* Centers buttons vertically in the sidebar */
+	background: white;
+	border: 1px solid #ddd;
+	border-left: none;
+	/* Matches the card's typical border radius on the outer side only */
+	border-radius: 0 12px 12px 0; 
+	box-shadow: 4px 0 8px rgba(0, 0, 0, 0.05);
 	z-index: 10;
+	overflow: hidden;
+	width: 50px; /* Controlled width for the sidebar */
 `;
 
 const ActionButton = styled.button`
-	background: rgba(255, 255, 255, 0.9);
-	border: 1px solid #ddd;
-	border-radius: 50%;
-	width: 44px;
-	height: 44px;
+	background: transparent;
+	border: none;
+	width: 100%;
+	height: 60px; /* Fixed height for better touch/click targets */
 	font-size: 1.5rem;
 	cursor: pointer;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	transition: all 0.2s ease-in-out;
-	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	transition: background 0.2s ease-in-out;
 
 	&:hover {
-		background: white;
-		transform: scale(1.1);
+		background: #f9f9f9;
 	}
 
 	&.starred {
@@ -182,7 +197,7 @@ function GameDeck({ filteredCards }) {
 		toggleStarred,
 		handleDelete,
 		startNewSession,
-		speak, // Destructured speak function
+		speak,
 	} = useGameDeck(filteredCards);
 
 	if (isSessionComplete) {
@@ -221,9 +236,12 @@ function GameDeck({ filteredCards }) {
 			<GameDeckWrapper>
 				<CardAnimationWrapper className={exitDirection ? `exit-${exitDirection}` : ''}>
 					<FlashcardWithControls>
-						<Flashcard card={currentCard} isFlipped={isFlipped} setIsFlipped={setIsFlipped} />
+						<CardContainer>
+							<Flashcard card={currentCard} isFlipped={isFlipped} setIsFlipped={setIsFlipped} />
+							<BucketDisplay>רמה: {currentCard.bucket}</BucketDisplay>
+						</CardContainer>
+
 						<CardActionsOverlay>
-							{/* Text-to-speech button */}
 							<ActionButton onClick={() => speak(currentCard.front)}>🔊</ActionButton>
 							<ActionButton
 								onClick={toggleStarred}
@@ -233,7 +251,6 @@ function GameDeck({ filteredCards }) {
 							</ActionButton>
 							<ActionButton onClick={() => setIsConfirmModalOpen(true)}>🗑️</ActionButton>
 						</CardActionsOverlay>
-						<BucketDisplay>רמה: {currentCard.bucket}</BucketDisplay>
 					</FlashcardWithControls>
 				</CardAnimationWrapper>
 				{isFlipped && (

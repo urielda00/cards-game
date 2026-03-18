@@ -79,25 +79,27 @@ export const useListManager = (apiBaseUrl) => {
 		}
 	};
 
-	const handleResetCompletion = async (listFromClick) => {
-  // Use the passed list or the state one
-  const targetList = listFromClick || listToReset;
+	const handleResetCompletion = async (list) => {
+  const targetList = list || listToReset;
   if (!targetList) return;
 
   try {
     const response = await fetch(`${import.meta.env.VITE_API_URL}${apiBaseUrl}/${targetList.id}/complete`, {
       method: 'PATCH',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ completed: false }),
+      body: JSON.stringify({ completed: false }), 
     });
     
+    if (!response.ok) throw new Error('Failed to update');
+
     const updatedList = await response.json();
-    setLists(lists.map((list) => (list.id === targetList.id ? updatedList : list)));
-    toast.success('הסימון הוסר!');
+
+		setLists(lists.map((l) => (l.id === targetList.id ? updatedList : l)));
+    toast.success('הסימון הוסר');
     setListToReset(null);
   } catch (error) {
-    toast.error('איפוס הסטטוס נכשל.');
-    setListToReset(null);
+    console.error(error);
+    toast.error('איפוס הסטטוס נכשל');
   }
 };
 

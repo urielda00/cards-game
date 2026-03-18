@@ -160,21 +160,25 @@ function ListPage() {
               ) : (
                 <>
                   <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-                   {list.completed && (
-                   <span 
-                        style={{ fontSize: '1.4rem', cursor: 'pointer' }} 
-                        onClick={() => handleResetCompletion(list)}
-                        title="לחץ לביטול ההשלמה"
-                      >
-                        ✅
-                   </span>
-                    )}
-                    <ListLink to={`/lists/${list.id}`}>{list.name}</ListLink>
-                  </div>
+  {/* שימוש ב-Boolean(list.completed) מוודא שהתנאי יעבוד גם אם הערך הוא 1/0 מה-DB */}
+  {Boolean(list.completed) && (
+    <span 
+      style={{ 
+        fontSize: '1.4rem', 
+        cursor: 'pointer',
+        userSelect: 'none' // מונע סימון של הטקסט בלחיצה מהירה
+      }} 
+      onClick={() => handleResetCompletion(list)}
+      title="לחץ לביטול ההשלמה"
+    >
+      ✅
+    </span>
+  )}
+  <ListLink to={`/lists/${list.id}`}>{list.name}</ListLink>
+</div>
                   <ButtonGroup>
                     <ActionButton onClick={() => handleStartEdit(list)}>✏️ ערוך</ActionButton>
                     <DeleteButton onClick={() => setListToDelete(list)}>🗑️ מחק</DeleteButton>
-                    <ActionButton onClick={() => handleResetCompletion(list)}>🔄 אפס</ActionButton>
                   </ButtonGroup>
                 </>
               )}

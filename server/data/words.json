@@ -4,7 +4,7 @@
     "type": "word",
     "front": "BFS",
     "back": "O(|V|+|E|)",
-    "bucket": 1,
+    "bucket": 2,
     "starred": false,
     "listId": "1"
   },
@@ -13,7 +13,7 @@
     "type": "word",
     "front": "DFS",
     "back": "O(|V|+|E|)",
-    "bucket": 1,
+    "bucket": 2,
     "starred": false,
     "listId": "1"
   },
@@ -22,7 +22,7 @@
     "type": "word",
     "front": "PRIM",
     "back": "O(|E|log|V|)",
-    "bucket": 1,
+    "bucket": 2,
     "starred": false,
     "listId": "1"
   },
@@ -31,7 +31,7 @@
     "type": "word",
     "front": "Kruskal",
     "back": "O(|E|log|E|)",
-    "bucket": 1,
+    "bucket": 2,
     "starred": false,
     "listId": "1"
   },
@@ -40,7 +40,7 @@
     "type": "word",
     "front": "Dijkstra",
     "back": "O(|E|log|V|)",
-    "bucket": 1,
+    "bucket": 2,
     "starred": false,
     "listId": "1"
   },
@@ -49,7 +49,7 @@
     "type": "word",
     "front": "Bellman-Ford",
     "back": "O(|V||E|)",
-    "bucket": 1,
+    "bucket": 2,
     "starred": false,
     "listId": "1"
   },
@@ -58,7 +58,7 @@
     "type": "word",
     "front": "Floyd-Warshall",
     "back": "O(|V|^3)",
-    "bucket": 1,
+    "bucket": 2,
     "starred": false,
     "listId": "1"
   },
@@ -87,7 +87,7 @@
     "back": "בהקדם האפשרי",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w61",
@@ -96,7 +96,7 @@
     "back": "לדאוג, אכפת",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w62",
@@ -105,7 +105,7 @@
     "back": "להיפטר מ...",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w63",
@@ -114,7 +114,7 @@
     "back": "להישאר",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w64",
@@ -123,7 +123,7 @@
     "back": "להרגיש",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w65",
@@ -132,7 +132,7 @@
     "back": "להתחתן",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w66",
@@ -141,7 +141,7 @@
     "back": "להגיד, לספר",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w67",
@@ -150,7 +150,7 @@
     "back": "למכור",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w68",
@@ -159,7 +159,7 @@
     "back": "לנעוץ מבט ב...",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w69",
@@ -168,7 +168,7 @@
     "back": "לסיים",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w70",
@@ -177,7 +177,7 @@
     "back": "לשים",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w71",
@@ -186,7 +186,7 @@
     "back": "לשרוט",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w72",
@@ -195,7 +195,7 @@
     "back": "כלה",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w73",
@@ -204,7 +204,7 @@
     "back": "לפעמים",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w74",
@@ -213,7 +213,7 @@
     "back": "מאז",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w75",
@@ -222,7 +222,7 @@
     "back": "מפתח",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w76",
@@ -231,7 +231,7 @@
     "back": "נעול",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w77",
@@ -240,7 +240,7 @@
     "back": "עדיין",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w78",
@@ -249,7 +249,7 @@
     "back": "רהיטים",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w79",
@@ -258,7 +258,7 @@
     "back": "ש\"ב",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w80",
@@ -267,7 +267,7 @@
     "back": "לפנות",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w81",
@@ -276,7 +276,7 @@
     "back": "להרוס",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w82",
@@ -285,7 +285,7 @@
     "back": "להיראות",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w83",
@@ -294,7 +294,7 @@
     "back": "להזדקק",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w84",
@@ -303,7 +303,7 @@
     "back": "אחרי",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w85",
@@ -312,7 +312,7 @@
     "back": "אמת",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w86",
@@ -321,7 +321,7 @@
     "back": "בשקט",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w87",
@@ -330,7 +330,7 @@
     "back": "גרוטאות",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w88",
@@ -339,7 +339,7 @@
     "back": "היום",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w89",
@@ -348,7 +348,7 @@
     "back": "חברה",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w90",
@@ -357,7 +357,7 @@
     "back": "חתן",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w91",
@@ -366,7 +366,7 @@
     "back": "טיפשי",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w92",
@@ -375,7 +375,7 @@
     "back": "יותר טוב",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w93",
@@ -384,7 +384,7 @@
     "back": "כמו",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w94",
@@ -393,7 +393,7 @@
     "back": "כובע",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w95",
@@ -402,7 +402,7 @@
     "back": "כולם",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w96",
@@ -411,7 +411,7 @@
     "back": "לאהוב",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w97",
@@ -420,7 +420,7 @@
     "back": "לגנוב",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w98",
@@ -429,7 +429,7 @@
     "back": "לדבר עם",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w99",
@@ -438,7 +438,7 @@
     "back": "להזהיר",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w100",
@@ -447,7 +447,7 @@
     "back": "להסתכל",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w101",
@@ -456,7 +456,7 @@
     "back": "להתחיל",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w102",
@@ -465,7 +465,7 @@
     "back": "להציק/להתעסק",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w103",
@@ -474,7 +474,7 @@
     "back": "ללמוד",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w104",
@@ -483,7 +483,7 @@
     "back": "לנחות",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w105",
@@ -492,7 +492,7 @@
     "back": "לקחת",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w106",
@@ -501,7 +501,7 @@
     "back": "לשעמם",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w107",
@@ -510,7 +510,7 @@
     "back": "רק",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w108",
@@ -519,7 +519,7 @@
     "back": "לפני שעה",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w109",
@@ -528,7 +528,7 @@
     "back": "מוצרי חלב",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w110",
@@ -537,7 +537,7 @@
     "back": "מטוס",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w111",
@@ -546,7 +546,7 @@
     "back": "נמל תעופה",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w112",
@@ -555,7 +555,7 @@
     "back": "עורך דין",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w113",
@@ -564,7 +564,7 @@
     "back": "על",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w114",
@@ -573,7 +573,7 @@
     "back": "קבוצה",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w115",
@@ -582,7 +582,7 @@
     "back": "שוטר",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w116",
@@ -591,7 +591,7 @@
     "back": "תביעה",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w117",
@@ -600,7 +600,7 @@
     "back": "תחרות",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w118",
@@ -609,7 +609,7 @@
     "back": "אופניים",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w119",
@@ -618,7 +618,7 @@
     "back": "איתו",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w120",
@@ -627,7 +627,7 @@
     "back": "בדרך כלל",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w121",
@@ -636,7 +636,7 @@
     "back": "בחור",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w122",
@@ -645,7 +645,7 @@
     "back": "ביחד",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w123",
@@ -654,7 +654,7 @@
     "back": "בכלל",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w124",
@@ -663,7 +663,7 @@
     "back": "במיוחד",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w125",
@@ -672,7 +672,7 @@
     "back": "חיות",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w126",
@@ -681,7 +681,7 @@
     "back": "גנב",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w127",
@@ -690,7 +690,7 @@
     "back": "חיות מחמד",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w128",
@@ -699,7 +699,7 @@
     "back": "בית סוהר",
     "bucket": 1,
     "starred": false,
-    "listId": "4"
+    "listId": "3"
   },
   {
     "id": "w129",
@@ -895,7 +895,7 @@
     "type": "word",
     "front": "guarantee",
     "back": "להבטיח / לערוב",
-    "bucket": 1,
+    "bucket": 2,
     "starred": false,
     "listId": "2"
   },
@@ -967,7 +967,7 @@
     "type": "word",
     "front": "thus",
     "back": "לפיכך / לכן / כך",
-    "bucket": 1,
+    "bucket": 2,
     "starred": false,
     "listId": "2"
   }

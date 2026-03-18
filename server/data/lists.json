@@ -1,14 +1,16 @@
 [
- {
+  {
     "id": "1",
     "name": "AlgoPrep",
     "completed": false
-  },{
+  },
+  {
     "id": "2",
     "name": "שובל רשימה 1",
     "completed": false
-  },{
-    "id": 3,
+  },
+  {
+    "id": "3",
     "name": "מילים באנגלית אמא",
     "completed": false
   }
