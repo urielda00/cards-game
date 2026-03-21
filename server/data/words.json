@@ -970,5 +970,274 @@
     "bucket": 2,
     "starred": false,
     "listId": "2"
+  },{
+    "id": "w159",
+    "type": "word",
+    "front": "Accomplishment",
+    "back": "הישג",
+    "bucket": 1,
+    "starred": false,
+    "listId": "4"
+  },
+  {
+    "id": "w160",
+    "type": "word",
+    "front": "Aid",
+    "back": "סיוע / עזרה",
+    "bucket": 1,
+    "starred": false,
+    "listId": "4"
+  },
+  {
+    "id": "w161",
+    "type": "word",
+    "front": "Equivalent",
+    "back": "שווה ערך / מקביל",
+    "bucket": 1,
+    "starred": false,
+    "listId": "4"
+  },
+  {
+    "id": "w162",
+    "type": "word",
+    "front": "Incentive",
+    "back": "תמריץ",
+    "bucket": 1,
+    "starred": false,
+    "listId": "4"
+  },
+  {
+    "id": "w163",
+    "type": "word",
+    "front": "Sensation",
+    "back": "תחושה",
+    "bucket": 1,
+    "starred": false,
+    "listId": "4"
+  },
+  {
+    "id": "w164",
+    "type": "word",
+    "front": "Span",
+    "back": "משך (זמן) / טווח",
+    "bucket": 1,
+    "starred": false,
+    "listId": "4"
+  },
+  {
+    "id": "w165",
+    "type": "word",
+    "front": "Succession",
+    "back": "רצף / ירושה (של תפקיד)",
+    "bucket": 1,
+    "starred": false,
+    "listId": "4"
+  },
+  {
+    "id": "w166",
+    "type": "word",
+    "front": "Toll",
+    "back": "מחיר (במובן של נזק) / אגרה",
+    "bucket": 1,
+    "starred": false,
+    "listId": "4"
+  },
+  {
+    "id": "w167",
+    "type": "word",
+    "front": "Urge",
+    "back": "דחף",
+    "bucket": 1,
+    "starred": false,
+    "listId": "4"
+  },
+  {
+    "id": "w168",
+    "type": "word",
+    "front": "Constant",
+    "back": "קבוע / רציף",
+    "bucket": 1,
+    "starred": false,
+    "listId": "4"
+  },
+  {
+    "id": "w169",
+    "type": "word",
+    "front": "Further",
+    "back": "נוסף / רחוק יותר",
+    "bucket": 1,
+    "starred": false,
+    "listId": "4"
+  },
+  {
+    "id": "w170",
+    "type": "word",
+    "front": "Innate",
+    "back": "מולד",
+    "bucket": 1,
+    "starred": false,
+    "listId": "4"
+  },
+  {
+    "id": "w171",
+    "type": "word",
+    "front": "Occasional",
+    "back": "מזדמן / מקרי",
+    "bucket": 1,
+    "starred": false,
+    "listId": "4"
+  },
+  {
+    "id": "w172",
+    "type": "word",
+    "front": "Rapid",
+    "back": "מהיר",
+    "bucket": 1,
+    "starred": false,
+    "listId": "4"
+  },
+  {
+    "id": "w173",
+    "type": "word",
+    "front": "Sustained",
+    "back": "מתמשך",
+    "bucket": 1,
+    "starred": false,
+    "listId": "4"
+  },
+  {
+    "id": "w174",
+    "type": "word",
+    "front": "Plague",
+    "back": "נגוע / מוכה (בדרך כלל שם עצם שפירושו מגיפה)",
+    "bucket": 1,
+    "starred": false,
+    "listId": "4"
+  },
+  {
+    "id": "w175",
+    "type": "word",
+    "front": "Accelerate",
+    "back": "להאיץ",
+    "bucket": 1,
+    "starred": false,
+    "listId": "4"
+  },
+  {
+    "id": "w176",
+    "type": "word",
+    "front": "Comply",
+    "back": "לציית / להיענות ל-",
+    "bucket": 1,
+    "starred": false,
+    "listId": "4"
+  },
+  {
+    "id": "w177",
+    "type": "word",
+    "front": "Devote",
+    "back": "להקדיש",
+    "bucket": 1,
+    "starred": false,
+    "listId": "4"
+  },
+  {
+    "id": "w178",
+    "type": "word",
+    "front": "Encounter",
+    "back": "להיתקל ב- / לפגוש",
+    "bucket": 1,
+    "starred": false,
+    "listId": "4"
+  },
+  {
+    "id": "w179",
+    "type": "word",
+    "front": "Erode",
+    "back": "לשחוק",
+    "bucket": 1,
+    "starred": false,
+    "listId": "4"
+  },
+  {
+    "id": "w180",
+    "type": "word",
+    "front": "Impair",
+    "back": "לפגום / להחליש",
+    "bucket": 1,
+    "starred": false,
+    "listId": "4"
+  },
+  {
+    "id": "w181",
+    "type": "word",
+    "front": "Multitask",
+    "back": "לבצע מספר משימות במקביל",
+    "bucket": 1,
+    "starred": false,
+    "listId": "4"
+  },
+  {
+    "id": "w182",
+    "type": "word",
+    "front": "Prevent",
+    "back": "למנוע",
+    "bucket": 1,
+    "starred": false,
+    "listId": "4"
+  },
+  {
+    "id": "w183",
+    "type": "word",
+    "front": "Rationalize",
+    "back": "לנמק / להצדיק (רציונלית)",
+    "bucket": 1,
+    "starred": false,
+    "listId": "4"
+  },
+  {
+    "id": "w184",
+    "type": "word",
+    "front": "Seek",
+    "back": "לחפש / לבקש",
+    "bucket": 1,
+    "starred": false,
+    "listId": "4"
+  },
+  {
+    "id": "w185",
+    "type": "word",
+    "front": "Stimulate",
+    "back": "לעורר / להמריץ",
+    "bucket": 1,
+    "starred": false,
+    "listId": "4"
+  },
+  {
+    "id": "w186",
+    "type": "word",
+    "front": "Erroneously",
+    "back": "בטעות",
+    "bucket": 1,
+    "starred": false,
+    "listId": "4"
+  },
+  {
+    "id": "w187",
+    "type": "word",
+    "front": "Probably",
+    "back": "כנראה / ככל הנראה",
+    "bucket": 1,
+    "starred": false,
+    "listId": "4"
+  },
+  {
+    "id": "w188",
+    "type": "word",
+    "front": "Simultaneously",
+    "back": "בו-זמנית",
+    "bucket": 1,
+    "starred": false,
+    "listId": "4"
   }
 ]
