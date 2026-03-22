@@ -1,0 +1,6 @@
+"Please convert the following list of words and their translations into a JSON array of objects. Ignore the category titles (like Nouns, Verbs). Each object should have exactly two keys: 'front' for the English word, and 'back' for the Hebrew translation. Output ONLY the valid JSON array, without any markdown formatting or extra text. Here is the list:"
+[
+  { "front": "Accomplishment", "back": "הישג" },
+  { "front": "Aid", "back": "סיוע / עזרה" },
+  { "front": "Equivalent", "back": "שווה ערך / מקביל" }
+]

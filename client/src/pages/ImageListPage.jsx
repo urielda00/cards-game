@@ -134,7 +134,7 @@ function ImageListPage() {
             onChange={(e) => setNewListName(e.target.value)}
             placeholder="שם לרשימת תמונות חדשה"
           />
-          <FormButton type="submit">צור רשימה</FormButton>
+          {/* <FormButton type="submit">צור רשימה</FormButton> */}
         </CreateForm>
       </PageWrapper>
     </>
