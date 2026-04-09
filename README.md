@@ -2,6 +2,8 @@
 
 A full-stack (MERN) web application for creating, managing, and studying word lists using flashcards.
 
+[View Live Demo](https://cards-gamee.netlify.app/)
+
 ## Getting Started
 
 ### Prerequisites
