@@ -9,6 +9,7 @@ import ImageGamePage from './pages/ImageGamePage';
 import GamesMenuPage from './pages/GamesMenuPage';
 import RapidFireGame from './pages/RapidFireGame';
 import GridMatchGame from './pages/GridMatchGame';
+import PresentationPage from './pages/PresentationPage';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path="/games/swipe" element={<SwipeGame />} />
           <Route path="/games/rapid-fire" element={<RapidFireGame />} />
           <Route path="/games/grid-match" element={<GridMatchGame />} />
+          <Route path="/presentation" element={<PresentationPage />} />
           
       </Routes>
     </BrowserRouter>

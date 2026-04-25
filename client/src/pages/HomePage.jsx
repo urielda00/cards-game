@@ -9,14 +9,14 @@ const PageWrapper = styled.div`
   justify-content: flex-start; 
   padding-top: 18vh;
   /* Adjusting height to account for the Header */
-  height: calc(100vh - 70px); 
+  min-height: calc(100vh - 70px); 
   width: 100%;
   position: relative;
-  overflow: hidden; /* Prevents unnecessary scrollbars */
+  overflow-y: auto; /* Allows the new presentation button to fit on smaller screens */
   box-sizing: border-box;
 
   @media (max-width: 600px) {
-    height: calc(100vh - 60px);
+    min-height: calc(100vh - 60px);
     padding-top: 15vh;
   }
 `;
@@ -124,6 +124,15 @@ function HomePage() {
               }}
             >
               משחקי תרגול
+            </ButtonLink>
+            <ButtonLink
+              to="/presentation"
+              style={{
+                background: 'rgba(168, 85, 247, 0.85)',
+                boxShadow: '0 0 15px rgba(168, 85, 247, 0.65)'
+              }}
+            >
+              פרזנטציה
             </ButtonLink>
           </ButtonsWrapper>
         </PageContent>
