@@ -414,6 +414,8 @@ const Feedback = styled.div`
 function PresentationPage() {
   const recognitionRef = useRef(null);
   const wordRecognitionRef = useRef(null);
+  const processedFinalResultsRef = useRef(new Set());
+  const transcriptRef = useRef('');
 
   const [targetText, setTargetText] = useState('');
   const [transcript, setTranscript] = useState('');
@@ -426,6 +428,11 @@ function PresentationPage() {
   const [wordFeedback, setWordFeedback] = useState('');
 
   const browserSupportsSpeech = Boolean(SpeechRecognitionApi);
+
+  const updateTranscript = (nextValue) => {
+    transcriptRef.current = nextValue;
+    setTranscript(nextValue);
+  };
 
   const targetWordsCount = useMemo(() => splitWords(targetText).length, [targetText]);
   const transcriptWordsCount = useMemo(() => splitWords(transcript).length, [transcript]);
@@ -456,6 +463,8 @@ function PresentationPage() {
     setResult(null);
     setPracticeStarted(false);
     setWordFeedback('');
+    processedFinalResultsRef.current = new Set();
+    transcriptRef.current = transcript;
 
     const recognition = new SpeechRecognitionApi();
     recognition.lang = 'en-US';
@@ -467,14 +476,23 @@ function PresentationPage() {
       let interimChunk = '';
 
       for (let i = event.resultIndex; i < event.results.length; i += 1) {
-        const chunk = event.results[i][0].transcript;
-        if (event.results[i].isFinal) finalChunk += `${chunk} `;
-        else interimChunk += chunk;
+        const chunk = event.results[i][0].transcript.trim();
+
+        if (event.results[i].isFinal) {
+          if (!processedFinalResultsRef.current.has(i)) {
+            processedFinalResultsRef.current.add(i);
+            finalChunk += `${chunk} `;
+          }
+        } else {
+          interimChunk += `${chunk} `;
+        }
       }
 
-      if (finalChunk) {
-        setTranscript((prev) => `${prev}${prev ? ' ' : ''}${finalChunk.trim()}`.trim());
+      if (finalChunk.trim()) {
+        const nextTranscript = `${transcriptRef.current}${transcriptRef.current ? ' ' : ''}${finalChunk.trim()}`.trim();
+        updateTranscript(nextTranscript);
       }
+
       setInterimText(interimChunk.trim());
     };
 
@@ -520,7 +538,8 @@ function PresentationPage() {
   const resetSession = () => {
     stopRecognition();
     if (wordRecognitionRef.current) wordRecognitionRef.current.stop();
-    setTranscript('');
+    updateTranscript('');
+    processedFinalResultsRef.current = new Set();
     setInterimText('');
     setResult(null);
     setPracticeStarted(false);
@@ -623,7 +642,7 @@ function PresentationPage() {
               </CardHeader>
               <TextArea
                 value={interimText ? `${transcript}${transcript ? ' ' : ''}${interimText}` : transcript}
-                onChange={(event) => setTranscript(event.target.value)}
+                onChange={(event) => updateTranscript(event.target.value)}
                 placeholder="כאן יופיע התמלול של הדיבור שלך. אפשר לעצור, לערוך ולתקן טעויות זיהוי לפני סיום ה-session."
               />
               <Hint>
