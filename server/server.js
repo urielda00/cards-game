@@ -31,6 +31,7 @@ app.use((req, res, next) => {
 });
 
 // Mount API routers
+app.get('/api/health', (req, res) => res.send({ project: 'Cards Game' }));
 app.use('/api/lists', listRoutes);
 app.use('/api', wordRoutes);
 
